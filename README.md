@@ -55,48 +55,69 @@ If F(x) and E[F(x)] are close to each other, it suggests that the model is makin
 
 ##### Sample 30
 ![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/32ba615f-02ea-48d9-89d1-e4793f6e32a2)
+* E[f(X)]= 0.082 represents the average predicted output over the background data .
+* F(X) = 0.125 that predicts sample index for 30 .
+
+* Shap: lone _to _value _ratio_std  has a SHAP value of 0.05 and contributes the most positive affect , followed by income std , which has a SHAP value of   -0.01 its means negative affect on mortgage high price .
+* lime: lone _to _value _ratio_std  has a SHAP value of contributes the most positive affect , followed by property_value_std , which has a SHAP value of -0.12   its means negative affect on mortgage high price .
 
 ![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/cd91b7e3-fe9e-4824-9659-b89c6f636670)
+* Local Interpretability:  The title indicates that the predicted value for this sample is 0.1268, which differs slightly from the actual response of 1.0000.The     main effect of lone _to _value _ratio_std makes the largest contribution to the final prediction, with a positive effect (approximately0.95). Second number       property_value contribution  to the final prediction, with a positive effect (approximately0.20) on mortgage high price.
 
 
 ##### Sample 8000
 ![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/a0bafc1b-eea9-4071-83ff-8f07ae08f879)
+* E[f(X)]= 0.082 represents the average predicted output over the background data .
+* F(X) = 0.005  that predicts sample index for 8000.
 
+* shap:  lone _to _value _ratio_std  has a SHAP value of - 0.04 and contributes the most negative effect , followed by term 360   ,which has a SHAP value of -0.02 this  effect also negative  effect high-priced mortgage
+* lime:  one _to _value _ratio_std  has a SHAP value of - 0.04 and contributes the most postive effect high-priced mortgage.
 
 ![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/86b19a24-13c5-4303-a1b9-6ad69a22f08b)
+ * Local Interpretability: The title indicates that the predicted value for this sample is 0.0052, which differs slightly from the actual response of 0.0000.The     main effect of lone _to _value _ratio_std makes the largest contribution to the final prediction, with a Negative effect (approximately – 0.05).  Second           numberterm_360 contribution to the final prediction, with a negative  effect (approximately- 1.2) on mortgage high price.
+ 
 
 
 ##### Sample 16000
 
 ![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/2f38089a-8496-49fa-a2d2-c91b8d9188c6)
+* shap: lone _to _value _ratio_std  has a SHAP value of - 0.04 and contributes the most negative effect , followed by Property_value_std ,which has a SHAP value     of -0.02 this  effect also negative  effect on high-priced mortgage.
+* lime : debt_to_income_ratio_std has a SHAP value of - contributes the most postive  effect high-priced mortgage.
 
 ![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/66a2c226-05ba-41c1-86a7-37ebb38f12f3)
+* Local Interpretability: The title indicates that the predicted value for this sample is 0.0073, which differs slightly from the actual response of 0.0000.The main effect of lone   _to   _value _ratio_std makes the largest contribution to the final prediction, with a Negative effect (approximately – 0.05). Second number property_ value contribution to the final prediction, with a negative  effect (approximately-0.5) high-priced mortgage.
 
 #### Reul-DNN
 
 ##### Sample 30
 ![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/2644632f-d02c-47dc-9a61-7d708863155f)
+* SHAP: Loan to value ratio, property value, and loan amount are the most important features in predicting High Priced. They all have a positive relationship with the target variable.
+* LIME: Agrees with SHAP for Loan to value ratio, property value, and loan amount to be the most important features in predicting High Priced.
 
 ![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/180ed519-7799-4276-936d-14f4a7109237)
+Local Interpretability: Agrees with LIME that property value is the most important feature in predicting the target variable.
 
 
 
 ##### Sample 8000
 ![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/593caa41-8a1f-44a4-9ae1-580f5071ca8f)
+* SHAP: Loan to value ratio, property value, and term 360 are the most important features in predicting High Priced. They all     have a negative relationship with the target variable.
+* LIME: Agrees with SHAP for Loan to value ratio, property value, and term360 to be the most important features in predicting     High Priced. But has term360 as the most important.
 
 ![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/a60bbecb-1b2a-44c5-bd59-b0b8700eef29)
+* Local Interpretability: Agrees with LIME that term360 is the most important feature in predicting the target variable.
 
 
 
 ##### Sample 16000
 
 ![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/ce332882-692b-44e2-8de1-addf1980c104)
+* SHAP: Loan to value ratio, property value, and loan amount are the most important features in predicting High Priced. Loan to   value ratio and property value have a positive relationship with the target variable. While loan amount has a negative relationship with the High Priced.
+* LIME: Agrees with SHAP for property value to be the most important feature in predicting High Priced, but followed by debt to income ratio
 
 
 ![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/d1bcad6f-46d8-4976-9dc4-e76cafba33d5)
-
-
-
+* Local Interpretability: ‘no intro rate period’ feature is the most important feature, followed by debt to income ratio.
 
 #### XGB2
 
