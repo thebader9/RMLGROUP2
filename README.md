@@ -96,7 +96,7 @@ If F(x) and E[F(x)] are close to each other, it suggests that the model is makin
 * LIME: Agrees with SHAP for Loan to value ratio, property value, and loan amount to be the most important features in predicting High Priced.
 
 ![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/180ed519-7799-4276-936d-14f4a7109237)
-Local Interpretability: Agrees with LIME that property value is the most important feature in predicting the target variable.
+* Local Interpretability: Agrees with LIME that property value is the most important feature in predicting the target variable.
 
 
 
