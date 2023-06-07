@@ -1,4 +1,5 @@
-# Responsible Machine Learning - Post hoc explainability (Assignment 2)
+# Responsible Machine Learning - Post hoc explainability 
+# (Assignment 2)
 
 ## Q1) Global Explainability and Interpretability
 
@@ -59,7 +60,7 @@ If F(x) and E[F(x)] are close to each other, it suggests that the model is makin
 * F(X) = 0.125 that predicts sample index for 30 .
 
 * Shap: lone _to _value _ratio_std  has a SHAP value of 0.05 and contributes the most positive affect , followed by income std , which has a SHAP value of   -0.01 its means negative affect on mortgage high price .
-* lime: lone _to _value _ratio_std  has a SHAP value of contributes the most positive affect , followed by property_value_std , which has a SHAP value of -0.12   its means negative affect on mortgage high price .
+* lime: lone _to _value _ratio_std  has a SHAP value of contributes the most positive affect , followed by property_value_std  negative affect on mortgage high price .
 
 ![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/cd91b7e3-fe9e-4824-9659-b89c6f636670)
 * Local Interpretability:  The title indicates that the predicted value for this sample is 0.1268, which differs slightly from the actual response of 1.0000.The     main effect of lone _to _value _ratio_std makes the largest contribution to the final prediction, with a positive effect (approximately0.95). Second number       property_value contribution  to the final prediction, with a positive effect (approximately0.20) on mortgage high price.
@@ -71,7 +72,7 @@ If F(x) and E[F(x)] are close to each other, it suggests that the model is makin
 * F(X) = 0.005  that predicts sample index for 8000.
 
 * shap:  lone _to _value _ratio_std  has a SHAP value of - 0.04 and contributes the most negative effect , followed by term 360   ,which has a SHAP value of -0.02 this  effect also negative  effect high-priced mortgage
-* lime:  one _to _value _ratio_std  has a SHAP value of - 0.04 and contributes the most postive effect high-priced mortgage.
+* lime:  one _to _value _ratio_std  contributes the most postive effect high-priced mortgage.
 
 ![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/86b19a24-13c5-4303-a1b9-6ad69a22f08b)
  * Local Interpretability: The title indicates that the predicted value for this sample is 0.0052, which differs slightly from the actual response of 0.0000.The     main effect of lone _to _value _ratio_std makes the largest contribution to the final prediction, with a Negative effect (approximately – 0.05).  Second           numberterm_360 contribution to the final prediction, with a negative  effect (approximately- 1.2) on mortgage high price.
@@ -82,7 +83,7 @@ If F(x) and E[F(x)] are close to each other, it suggests that the model is makin
 
 ![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/2f38089a-8496-49fa-a2d2-c91b8d9188c6)
 * shap: lone _to _value _ratio_std  has a SHAP value of - 0.04 and contributes the most negative effect , followed by Property_value_std ,which has a SHAP value     of -0.02 this  effect also negative  effect on high-priced mortgage.
-* lime : debt_to_income_ratio_std has a SHAP value of - contributes the most postive  effect high-priced mortgage.
+* lime : debt_to_income_ratio_std contributes the most postive effect high-priced mortgage.
 
 ![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/66a2c226-05ba-41c1-86a7-37ebb38f12f3)
 * Local Interpretability: The title indicates that the predicted value for this sample is 0.0073, which differs slightly from the actual response of 0.0000.The main effect of lone   _to   _value _ratio_std makes the largest contribution to the final prediction, with a Negative effect (approximately – 0.05). Second number property_ value contribution to the final prediction, with a negative  effect (approximately-0.5) high-priced mortgage.
