@@ -43,6 +43,25 @@
 
 ## Q2) Local Explainability and Interpretability
 
+#### Local Explainability/Interpretability
+
+* **LIME: Explains creating a surrogate (smaller, simpler) model. Then approximates predictions
+The "effect" in LIME refers to the impact of each feature on the predicted outcome for the selected instance. Positive coefficients indicate that the feature has a positive effect on the prediction, while negative coefficients indicate a negative effect.**
+
+* **SHAP:F(x) refers to the prediction of the machine learning model for a given data point x, while E[F(x)] refers to the expected prediction of the model over a background dataset.
+If F(x) and E[F(x)] are close to each other, it suggests that the model is making predictions that are consistent with the overall behavior of the dataset.If there is a large difference between F(x) and E[F(x)], it suggests that the model makes predictions that are significantly different from the overall behavior of the dataset, which may indicate bias or overfitting.Positive values indicate that the feature contributes positively to the prediction, while negative values indicate that the feature contributes negatively. The size of the SHAP value indicates the magnitude of the feature's influence.**
+
+#### EBM
+
+![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/32ba615f-02ea-48d9-89d1-e4793f6e32a2)
+
+
+
+
+
+
+
+
 
 
 ## Q3) Feature Behavior
