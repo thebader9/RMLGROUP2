@@ -71,8 +71,8 @@ If F(x) and E[F(x)] are close to each other, it suggests that the model is makin
 * E[f(X)]= 0.082 represents the average predicted output over the background data .
 * F(X) = 0.005  that predicts sample index for 8000.
 
-* shap:  lone _to _value _ratio_std  has a SHAP value of - 0.04 and contributes the most negative effect , followed by term 360   ,which has a SHAP value of -0.02 this  effect also negative  effect high-priced mortgage
-* lime:  one _to _value _ratio_std  contributes the most postive effect high-priced mortgage.
+* shap:  lone _to _value _ratio_std  has a SHAP value of - 0.04 and contributes the most negative effect , followed by term 360   ,which has a SHAP value of -0.02 this  effect also negative  effect high-priced mortgage.
+* lime: lone _to _value _ratio_std  contributes the most postive effect high-priced mortgage.
 
 ![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/86b19a24-13c5-4303-a1b9-6ad69a22f08b)
  * Local Interpretability: The title indicates that the predicted value for this sample is 0.0052, which differs slightly from the actual response of 0.0000.The     main effect of lone _to _value _ratio_std makes the largest contribution to the final prediction, with a Negative effect (approximately – 0.05).  Second           numberterm_360 contribution to the final prediction, with a negative  effect (approximately- 1.2) on mortgage high price.
@@ -102,8 +102,8 @@ Local Interpretability: Agrees with LIME that property value is the most importa
 
 ##### Sample 8000
 ![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/593caa41-8a1f-44a4-9ae1-580f5071ca8f)
-* SHAP: Loan to value ratio, property value, and term 360 are the most important features in predicting High Priced. They all     have a negative relationship with the target variable.
-* LIME: Agrees with SHAP for Loan to value ratio, property value, and term360 to be the most important features in predicting     High Priced. But has term360 as the most important.
+* SHAP: Loan to value ratio, property value, and term 360 are the most important features in predicting High Priced. They all  have a negative relationship with the target variable.
+* LIME: Agrees with SHAP for Loan to value ratio, property value, and term360 to be the most important features in predicting High Priced. But has term360 as the   most important.
 
 ![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/a60bbecb-1b2a-44c5-bd59-b0b8700eef29)
 * Local Interpretability: Agrees with LIME that term360 is the most important feature in predicting the target variable.
@@ -235,7 +235,7 @@ Local Interpretability: Agrees with LIME that property value is the most importa
 
 ![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/6db7a035-017c-42fd-b127-a56662e8c48e)
 
-* **This is the ALE plot for the categorical feature debt_to_income_missing:  . From this   plot, we can see that debt_to_income_missing:   with values 1 (    ) have a significantly negative effect on the final prediction, as compared to 0(    ). **
+* This is the ALE plot for the categorical feature debt_to_income_missing: . From this  plot, we can see that debt_to_income_missing: with values 1  have a significantly negative effect on the final prediction, as compared to 0. 
 
 
 
