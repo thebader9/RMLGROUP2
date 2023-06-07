@@ -74,6 +74,7 @@
 
 
 ##### Loan_amount_std
+
 ![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/97b0f45e-0875-4309-978d-c9898a1f912d)
 * **There is a negative relationship between ‘mortgage is high priced’ and loan_amount_std. As ‘loan_amount_std’ increases, the probability of that individual’s mortgage to be ‘high priced’ decreases.**
 
