@@ -102,11 +102,12 @@ If F(x) and E[F(x)] are close to each other, it suggests that the model is makin
 
 ##### Sample 30
 
-![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/a993edbb-5b6f-4ba4-8b51-3f5c375a1503)
+![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/bac54f76-c238-43cc-a287-486ea770794b)
+
 
 * **LIME and SHAP agrees on the most influential feature to be  loan_to_value_ratio_std with a positive effect on high_priced_mortgage for sample point 30.**
 
-![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/dc2e1987-0b7f-43f8-abdb-b4d02cb07393)
+![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/549846bc-1595-49c9-a96d-823be477ca16)
 
 * **As shown in the model above ‘loan_to_value_ratio_std’ feature represent the standardized ‘loan-to value-ratio’, which is a measure of the loan amount relative to the appraised value of the property.A higher loan-to-value ratio indicates a higher risk for lenders,potentially leading to higher interest rates and hence the value of 0.5525 suggest that the loan to value ratio for this particular application is relatively high.**
 
