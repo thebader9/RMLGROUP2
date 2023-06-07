@@ -53,9 +53,69 @@ If F(x) and E[F(x)] are close to each other, it suggests that the model is makin
 
 #### EBM
 
+##### Sample 30
 ![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/32ba615f-02ea-48d9-89d1-e4793f6e32a2)
 
+![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/cd91b7e3-fe9e-4824-9659-b89c6f636670)
 
+
+##### Sample 8000
+![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/a0bafc1b-eea9-4071-83ff-8f07ae08f879)
+
+
+![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/86b19a24-13c5-4303-a1b9-6ad69a22f08b)
+
+
+##### Sample 16000
+
+![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/2f38089a-8496-49fa-a2d2-c91b8d9188c6)
+
+![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/66a2c226-05ba-41c1-86a7-37ebb38f12f3)
+
+#### Reul-DNN
+
+##### Sample 30
+![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/2644632f-d02c-47dc-9a61-7d708863155f)
+
+![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/180ed519-7799-4276-936d-14f4a7109237)
+
+
+
+##### Sample 8000
+![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/593caa41-8a1f-44a4-9ae1-580f5071ca8f)
+
+![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/a60bbecb-1b2a-44c5-bd59-b0b8700eef29)
+
+
+
+##### Sample 16000
+
+![PFIRELU]
+
+![PFIRELU]
+
+
+
+#### XGB2
+
+##### Sample 30
+![PFIRELU]
+
+![PFIRELU]
+
+
+##### Sample 8000
+![PFIRELU]
+
+
+![PFIRELU]
+
+
+##### Sample 16000
+
+![PFIRELU]
+
+![PFIRELU]
 
 
 
