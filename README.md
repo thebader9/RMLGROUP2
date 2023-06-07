@@ -131,7 +131,7 @@ If F(x) and E[F(x)] are close to each other, it suggests that the model is makin
 
 ![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/549846bc-1595-49c9-a96d-823be477ca16)
 
-* **As shown in the model above ‘loan_to_value_ratio_std’ feature represent the standardized ‘loan-to value-ratio’, which is a measure of the loan amount relative to the appraised value of the property.A higher loan-to-value ratio indicates a higher risk for lenders,potentially leading to higher interest rates and hence the value of 0.5525 suggest that the loan to value ratio for this particular application is relatively high.**
+* Local Interpretability:As shown in the model above ‘loan_to_value_ratio_std’ feature represent the standardized ‘loan-to value-ratio’, which is a measure of the loan amount relative to the appraised value of the property.A higher loan-to-value ratio indicates a higher risk for lenders,potentially leading to higher interest rates and hence the value of 0.5525 suggest that the loan to value ratio for this particular application is relatively high.**
 
 
 ##### Sample 8000
@@ -143,7 +143,7 @@ If F(x) and E[F(x)] are close to each other, it suggests that the model is makin
 
 ![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/612cb739-42d3-4802-9b3a-0ef42c5acfc1)
 
-* **Property value, loan-to-value ratio, and term_360, are directed towards the left side, indicating that decreasing or lower values of these features for a specific instance have a relatively stronger influence on the prediction of a high-priced mortgage.**
+* Local Interpretability:Property value, loan-to-value ratio, and term_360, are directed towards the left side, indicating that decreasing or lower values of these features for a specific instance have a relatively stronger influence on the prediction of a high-priced mortgage.**
 
 
 ##### Sample 16000
@@ -154,7 +154,7 @@ If F(x) and E[F(x)] are close to each other, it suggests that the model is makin
 
 ![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/70131d55-378a-46a9-90a1-655df4f18057)
 
-* **Property value, loan-to-value ratio, play pivotal role in predicting ‘high_priced_mortgage’ and are directed towards the left side, indicating that decreasing or lower values of these features for a specific instance have a relatively stronger influence on the prediction of a high-priced mortgage.**
+* Local Interpretability:Property value, loan-to-value ratio, play pivotal role in predicting ‘high_priced_mortgage’ and are directed towards the left side, indicating that decreasing or lower values of these features for a specific instance have a relatively stronger influence on the prediction of a high-priced mortgage.**
 
 
 
