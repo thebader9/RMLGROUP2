@@ -1,4 +1,4 @@
-# Responsible Machine Learning - Post hoc explainability
+# Responsible Machine Learning - Post hoc explainability (Assignment 2)
 
 ## Q1) Global Explainability and Interpretability
 
@@ -23,9 +23,11 @@
 * **Loan_to _value _ratio_ std, Property value std and debt to income ratio std are the top three features that play pivotal role in deciding high_priced_mortagage among other features.**
 
 
+
 ### Global Interpretability im PiML
 
 #### Feature Importance (FI)
+
 ##### EBM
 ** (Picture EBM FI)
 * **The most influential features when predicting High Priced are loan_to_value_ratio_std, Property_value_std, Debt_to_income_ratio_std.**
@@ -38,3 +40,11 @@
 
 ** (Picture XGPT2 FI)
 * **Loan_to _value _ratio_ std, Property value std and debt to income ratio std are the top three features that play pivotal role in deciding high_priced_mortagage among other features.**
+
+
+## Q2) Local Explainability and Interpretability
+
+
+
+## Q3) Feature Behavior
+
