@@ -90,34 +90,48 @@ If F(x) and E[F(x)] are close to each other, it suggests that the model is makin
 
 ##### Sample 16000
 
-![PFIRELU]
+![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/ce332882-692b-44e2-8de1-addf1980c104)
 
-![PFIRELU]
+
+![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/d1bcad6f-46d8-4976-9dc4-e76cafba33d5)
+
 
 
 
 #### XGB2
 
 ##### Sample 30
-![PFIRELU]
 
-![PFIRELU]
+![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/a993edbb-5b6f-4ba4-8b51-3f5c375a1503)
+
+* **LIME and SHAP agrees on the most influential feature to be  loan_to_value_ratio_std with a positive effect on high_priced_mortgage for sample point 30.**
+
+![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/dc2e1987-0b7f-43f8-abdb-b4d02cb07393)
+
+* **As shown in the model above ‘loan_to_value_ratio_std’ feature represent the standardized ‘loan-to value-ratio’, which is a measure of the loan amount relative to the appraised value of the property.A higher loan-to-value ratio indicates a higher risk for lenders,potentially leading to higher interest rates and hence the value of 0.5525 suggest that the loan to value ratio for this particular application is relatively high.**
 
 
 ##### Sample 8000
-![PFIRELU]
+
+![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/13d07c5a-3422-4ad5-96b1-f29d1cda1bea)
+
+* **LIME and SHAP disagree on the most influential feature on ‘high_priced_mortgage’ for Sample point 8000. LIME suggests that ‘loan_to_value_ratio_std’ is the most influential feature with a positive  effect on ‘high_priced_mortgage’, while SHAP suggests that ‘property_value_std’ is the most influential with a negative effect on ‘high_priced_mortgage’.**
 
 
-![PFIRELU]
+![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/612cb739-42d3-4802-9b3a-0ef42c5acfc1)
+
+* **Property value, loan-to-value ratio, and term_360, are directed towards the left side, indicating that decreasing or lower values of these features for a specific instance have a relatively stronger influence on the prediction of a high-priced mortgage.**
 
 
 ##### Sample 16000
 
-![PFIRELU]
+![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/0da78f03-3be8-4148-a087-00846158d418)
 
-![PFIRELU]
+* **LIME and SHAP agree that ‘loan_to_value_ratio_std’  has the strongest influence on ‘high_priced_mortgage’ for sample point 16000. ‘Loan_to_value_ratio_std’has a negative effect on‘high_priced_mortgage’ as the value is -0.04 . LIME and SHAP disagree on the rankings and effects of the other features on Status.**
 
+![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/70131d55-378a-46a9-90a1-655df4f18057)
 
+* **Property value, loan-to-value ratio, play pivotal role in predicting ‘high_priced_mortgage’ and are directed towards the left side, indicating that decreasing or lower values of these features for a specific instance have a relatively stronger influence on the prediction of a high-priced mortgage.**
 
 
 
