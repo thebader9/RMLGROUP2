@@ -8,12 +8,12 @@
 * **Permutation Feature Importance (PFI): Computes the change in prediction performance as the measure of feature importance. Breaks the relationship between the feature and the target, thus the drop in the model score is indicative of how much the model depends on the feature**
 
 ##### EBM
-** (Picture EBM PFI)
+![pfi ebm](https://github.com/thebader9/RMLGROUP2/assets/111529115/7e4800b4-5e00-40ad-a8d7-6faf8c19da59)
 * **‘loan_to_value_ratio_std’ is the most influential feature in this model**
 * **‘Property_value_std’, ‘Debt_to_income_ratio_std’, ‘loan_amount _std’ have a significant impact on the target variable (high priced)**
 
 ##### ReLU-DNN
-** (Picture Relu PFI)
+![PFI Relu](https://github.com/thebader9/RMLGROUP2/assets/111529115/bad62191-d066-40ae-b379-74cbc54ba736)
 * **‘Property Value’ is the most influential feature in this model**
 * **‘Loan to value ratio’, ‘loan amount’, ‘debt to income ratio’ have a significant impact on the target variable (high priced)**
 
@@ -29,11 +29,11 @@
 #### Feature Importance (FI)
 
 ##### EBM
-** (Picture EBM FI)
+![global ebm](https://github.com/thebader9/RMLGROUP2/assets/111529115/37b2929f-e304-43af-a287-6833c502110a)
 * **The most influential features when predicting High Priced are loan_to_value_ratio_std, Property_value_std, Debt_to_income_ratio_std.**
 
 ##### ReLU-DNN
-** (Picture Relu FI)
+![global relu](https://github.com/thebader9/RMLGROUP2/assets/111529115/edc766d2-8c88-4994-96a1-d7cfd1acf93f)
 * **The most influential features when predicting High Priced are Loan to value, Property Value, loan amount, and Intro Rate period.**
 
 ##### XGB2
