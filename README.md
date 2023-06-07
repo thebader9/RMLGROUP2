@@ -46,4 +46,11 @@
 
 
 ## Q3) Feature Behavior
+###Partial Dependency Plot (PDP) and Accumulated Local Effects (ALE)
+* **Partial Dependence Plot (PDP): used to understand how the prediction varies as a function of variables of interest, by averaging over other variables.Not recommended if the features are correlated**
+
+* **Accumulated Local Effects (ALE): describes how features affect a model prediction.It shares the same goal as PDP (Partial Dependence Plot).Overcomes the features correlation problem by averaging and accumulating the difference in predictions across the conditional distribution, limiting the effects of specific features.**
+
+
+
 
