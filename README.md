@@ -19,7 +19,7 @@
 
 ##### XGB2
 
-** (Picture XGPT2 PFI)
+![pfi  x](https://github.com/thebader9/RMLGROUP2/assets/111529115/e1716e36-8480-4ec8-9552-6385cfbd65be)
 * **Loan_to _value _ratio_ std, Property value std and debt to income ratio std are the top three features that play pivotal role in deciding high_priced_mortagage among other features.**
 
 
@@ -38,7 +38,7 @@
 
 ##### XGB2
 
-** (Picture XGPT2 FI)
+![global x](https://github.com/thebader9/RMLGROUP2/assets/111529115/70eb03d3-2093-4bc2-87c3-57d175659e9f)
 * **Loan_to _value _ratio_ std, Property value std and debt to income ratio std are the top three features that play pivotal role in deciding high_priced_mortagage among other features.**
 
 
