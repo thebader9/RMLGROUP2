@@ -25,7 +25,6 @@
 
 ### Global Interpretability im PiML
 
-
 #### Feature Importance (FI)
 
 ##### EBM
