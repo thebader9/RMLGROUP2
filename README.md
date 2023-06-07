@@ -79,12 +79,34 @@
 * **There is a negative relationship between ‘mortgage is high priced’ and loan_amount_std. As ‘loan_amount_std’ increases, the probability of that individual’s mortgage to be ‘high priced’ decreases.**
 
 
+##### Intro_rate_period_std
+
+![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/37eec072-da24-4e93-9022-fad32e5753f7)
+* **Both PDP and ALE agree that there’s a positive relationship until the value of ‘Intro_rate_period_std’ is at around 3.3 then there’s positive relationship at PDP while it’s negative at ALE.**
+
+##### Income_std
+
+![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/7216d043-1fb6-4fb3-8ec9-c3f343c955ed)
+
+* **There is a negative relationship between ‘mortgage is high priced’ and ‘Income_st:’. As ‘Income_std’ increases, the probability of that individual’s mortgage to be ‘high priced’ decreases.**
+
+##### No_intro_rate_period_std
+
+![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/3534adf5-757a-48e3-9377-db4699f6f8c1)
 
 
 
+##### Term_360
 
+![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/b7a1190a-05d3-4476-ade4-ea2dc40b0212)
 
+##### Conforming
 
+![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/42474987-680f-49ee-8178-3fbdd251912f)
+
+##### Debt to income ratio missing
+
+![PFIRELU](https://github.com/thebader9/RMLGROUP2/assets/111473895/6536c3a7-a8f4-4325-acd4-eecc833a8fec)
 
 
 
