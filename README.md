@@ -18,13 +18,13 @@
 * **‘Loan to value ratio’, ‘loan amount’, ‘debt to income ratio’ have a significant impact on the target variable (high priced)**
 
 ##### XGB2
-
 ![pfi  x](https://github.com/thebader9/RMLGROUP2/assets/111529115/e1716e36-8480-4ec8-9552-6385cfbd65be)
 * **Loan_to _value _ratio_ std, Property value std and debt to income ratio std are the top three features that play pivotal role in deciding high_priced_mortagage among other features.**
 
 
 
 ### Global Interpretability im PiML
+
 
 #### Feature Importance (FI)
 
