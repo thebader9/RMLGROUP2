@@ -1,3 +1,24 @@
+# Responsible Machine Learning - Bias Testing & Remediation
+# (Assignment 3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Responsible Machine Learning - Post hoc explainability 
 # (Assignment 2)
 
