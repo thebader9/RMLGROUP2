@@ -8,7 +8,7 @@
 * **Metrics measure the Adverse Impact Ratio (AIR),Precision,Recall,Standarized Mean Difference(for regression task).**
 * **Segmentation:It is use to display fairness results conditioning on a feature of interest.So we may effectively analyze and evaluate fairness at a granular level, allowing for a more comprehensive understanding of the model’s fairness performance across various segments of the data.**
 * **Feature Binning:is used to  discretize / bin feature values that may lead to unfair results. There are three binning methods, quantile, uniform, and customize.It is one of the unfairness mitigation method**
-* **Thresholding:It is another unfairness mitigation method wherein we enumerate the classification threshold to get a better trade-off between fairness and performance. The keyword for this strategy is “thresholding” for the show parameter. 
+* **Thresholding:It is another unfairness mitigation method wherein we enumerate the classification threshold to get a better trade-off between fairness and performance. The keyword for this strategy is “thresholding” for the show parameter.** 
 
 ##### Categorizing Race & Gender
 
