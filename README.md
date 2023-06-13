@@ -38,12 +38,14 @@
 ![pfi  x](https://github.com/thebader9/RMLGROUP2/assets/111473895/14619585-f763-4a27-aa36-b442d2c51b0c)
 * ** **
 
+### Segmentation
 
+##### Intro_rate_period_std
 
+![pfi  x](https://github.com/thebader9/RMLGROUP2/assets/111473895/b8344d0a-dea5-4df0-ba61-5bd8bb4fa195)
 
-#####
-![pfi  x]()
-* ** **
+![pfi  x](https://github.com/thebader9/RMLGROUP2/assets/111473895/f50162c6-2dff-46a1-81e4-9caec31bbd2b)
+
 
 
 
