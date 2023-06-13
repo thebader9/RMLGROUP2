@@ -10,7 +10,7 @@
 * **Feature Binning:is used to  discretize / bin feature values that may lead to unfair results. There are three binning methods, quantile, uniform, and customize.It is one of the unfairness mitigation method**
 * **Thresholding:It is another unfairness mitigation method wherein we enumerate the classification threshold to get a better trade-off between fairness and performance. The keyword for this strategy is “thresholding” for the show parameter.** 
 
-##### Categorizing Race & Gender
+### Categorizing Race & Gender
 
 #####
 ![pfi  x](https://github.com/thebader9/RMLGROUP2/assets/111473895/f9647fc0-bc85-49db-9c81-1712326d347e)
