@@ -7,6 +7,57 @@
 * **In PiML we use 'Model fairness'to measure the Adverse Impact Ratio (AIR).The general threshold for AIR is 0.8.There are multiple methods in PiML to adjust for AIR,such as segmenting, thresholding, binning. In this case we opted to use the .......................... method.**
 
 
+##### Categorizing Race & Gender
+![pfi  x](https://github.com/thebader9/RMLGROUP2/assets/111473895/c6798d81-b393-4c8c-9df5-98b47fdf110f)
+
+
+
+
+#####
+![pfi  x]()
+* ** **
+
+
+#####
+![pfi  x]()
+* ** **
+
+
+
+#####
+![pfi  x]()
+* ** **
+
+
+
+
+#####
+![pfi  x]()
+* ** **
+
+
+
+
+#####
+![pfi  x]()
+* ** **
+
+
+
+
+#####
+![pfi  x]()
+* ** **
+
+
+
+
+
+#####
+![pfi  x]()
+* ** **
+
+
 
 
 
