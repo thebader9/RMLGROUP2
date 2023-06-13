@@ -4,7 +4,7 @@
 ## Q1) Test model for Bias using AIR
 ### Bias in Machine learning
 * **Machine learning bias generally stems from problems introduced by the individuals who design and train the machine learning systems. They could either create algorithms that reflect unintended cognitive biases or real-life prejudices. Or they could introduce biases because they use incomplete, faulty or prejudicial data sets to train and validate the machine learning systems.**
-* **In PiML we use 'Model fairness'to measure the Adverse Impact Ratio (AIR).The general threshold for AIR is 0.8.There are multiple methods in PiML to adjust for AIR,such as segmenting, thresholding, binning and feature removal. In this case we opted to use the .......................... method.**
+* **In PiML we use 'Model fairness'to measure the Adverse Impact Ratio (AIR).The general threshold for AIR is 0.8.There are multiple methods in PiML to adjust for AIR,such as segmenting, thresholding, binning. In this case we opted to use the .......................... method.**
 
 
 
@@ -13,6 +13,7 @@
 
 
 
+## Q2)Remediate discovered Discrimination
 
 
 
