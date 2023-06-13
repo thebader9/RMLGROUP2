@@ -47,12 +47,11 @@
 ![pfi  x](https://github.com/thebader9/RMLGROUP2/assets/111473895/113fd6f9-beef-4889-82ff-fd2439f89035)
 
 
+##### Property_value_std
 
+![pfi  x](https://github.com/thebader9/RMLGROUP2/assets/111473895/a9213192-08d9-44ba-ae52-e5838cccf68c)
+![pfi  x](https://github.com/thebader9/RMLGROUP2/assets/111473895/20e93dfd-3a43-4568-89ca-ad6fb64755c7)
 
-
-
-#####
-![pfi  x]()
 * ** **
 
 
