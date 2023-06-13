@@ -52,12 +52,15 @@
 ![pfi  x](https://github.com/thebader9/RMLGROUP2/assets/111473895/a9213192-08d9-44ba-ae52-e5838cccf68c)
 ![pfi  x](https://github.com/thebader9/RMLGROUP2/assets/111473895/20e93dfd-3a43-4568-89ca-ad6fb64755c7)
 
-* ** **
 
 
+##### Loan_amount_std
 
+![pfi  x](https://github.com/thebader9/RMLGROUP2/assets/111473895/a09c9161-6595-4aca-bc60-659e90973665)
 
+![pfi  x](https://github.com/thebader9/RMLGROUP2/assets/111473895/71b545bd-3336-460c-89d3-b6cb8f20d48c)
 
+![pfi  x](
 
 
 
