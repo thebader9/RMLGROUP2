@@ -60,8 +60,9 @@
 
 ![pfi  x](https://github.com/thebader9/RMLGROUP2/assets/111473895/71b545bd-3336-460c-89d3-b6cb8f20d48c)
 
-![pfi  x](
-
+##### Income_std
+![pfi  x](https://github.com/thebader9/RMLGROUP2/assets/111473895/d637c02f-0ddf-4879-bc1b-05b0fe3d7e87)
+![pfi  x](https://github.com/thebader9/RMLGROUP2/assets/111473895/6a48fe6e-bb01-491b-9db3-b7f1c816ba93)
 
 
 ## Q2)Remediate discovered Discrimination
