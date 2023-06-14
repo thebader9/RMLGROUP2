@@ -36,10 +36,8 @@
  <!-- Add some vertical space -->
 <br>
 <br>
+<br>
 
-<br>
-<br>
-<br>
 
 ## Q2)Remediate discovered Discrimination
 
