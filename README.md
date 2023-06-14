@@ -31,7 +31,7 @@
   
    <div align="left">
      
-  * **The reference group for the above graph is "White" for race and "Male" for gender.The  adverse impact ratio for group 'black' is 0.71.Generally, an adverse impact ratio below 1.0 (or 100%) indicates that the protected group is likely to get 'high priced mortagage' compared to the reference group, suggesting potential adverse impact or disparities that may require further investigation to ensure fair and unbiased practices.**
+  * **The reference group for the above graph is "White" for race and "Male" for gender.The  adverse impact ratio for group 'black' is 0.71 and 'female' is O.94.Generally,an adverse impact ratio below 1.0 (or 100%) indicates that the protected group is likely to get 'high priced mortagage' compared to the reference group, suggesting potential adverse impact or disparities that may require further investigation to ensure fair and unbiased practices.**
   
  <!-- Add some vertical space -->
 <br>
