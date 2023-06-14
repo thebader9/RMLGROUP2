@@ -25,7 +25,7 @@
  
  <div align="center">
  <img src="https://github.com/thebader9/RMLGROUP2/assets/111473895/8ad88091-6b8a-4475-a334-a1bcfbee5c0f" alt="Image" width="530" height="120">
-  
+ * **The reference group for the above graph is "White" for race and "Male" for gender ** 
   
  <!-- Add some vertical space -->
 <br>
