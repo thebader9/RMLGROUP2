@@ -44,25 +44,6 @@
 ## Q2)Remediate discovered Discrimination
 
 
-
-
-![pfi  x](https://github.com/thebader9/RMLGROUP2/assets/111473895/e6807a80-7333-4e85-b9ee-39e9f4c37ec6)
-* ** **
-
-
-![pfi  x](https://github.com/thebader9/RMLGROUP2/assets/111473895/32f8e638-7d73-4628-8801-1d10fad17287)
-* ** **
-
-
-![pfi  x](https://github.com/thebader9/RMLGROUP2/assets/111473895/c310d639-ed89-427d-8019-7528abd04666)
-* ** **
-
-
-
-#####
-![pfi  x](https://github.com/thebader9/RMLGROUP2/assets/111473895/14619585-f763-4a27-aa36-b442d2c51b0c)
-* ** **
-
 ### Segmentation
 
 ##### Intro_rate_period_std
