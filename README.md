@@ -21,7 +21,7 @@
  
 ![pfi  x](https://github.com/thebader9/RMLGROUP2/assets/111473895/97224b8e-0c13-492e-9a2c-e7e6f6da35ed)
  
- <img src="https://github.com/thebader9/RMLGROUP2/assets/111473895/8ad88091-6b8a-4475-a334-a1bcfbee5c0f" alt="Image" width="200" height="200">
+ <img src="https://github.com/thebader9/RMLGROUP2/assets/111473895/8ad88091-6b8a-4475-a334-a1bcfbee5c0f" alt="Image" width="400" height="400">
 
 ![pfi  x](https://github.com/thebader9/RMLGROUP2/assets/111473895/8ad88091-6b8a-4475-a334-a1bcfbee5c0f)
  
