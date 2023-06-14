@@ -24,8 +24,11 @@
  
  <div align="center">
  <img src="https://github.com/thebader9/RMLGROUP2/assets/111473895/8ad88091-6b8a-4475-a334-a1bcfbee5c0f" alt="Image" width="500" height="150">
+  
+  <div align="center">
 
-![pfi  x](https://github.com/thebader9/RMLGROUP2/assets/111473895/8ad88091-6b8a-4475-a334-a1bcfbee5c0f)
+![pfi x](https://github.com/thebader9/RMLGROUP2/assets/111473895/8ad88091-6b8a-4475-a334-a1bcfbee5c0f){:height="500px" width="200px"}
+
  
 </div>
 
