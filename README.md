@@ -4,8 +4,8 @@
 ## Q1) Test model for Bias using AIR
 ### Bias in Machine learning
 * **Machine learning bias generally stems from problems introduced by the individuals who design and train the machine learning systems. They could either create algorithms that reflect unintended cognitive biases or real-life prejudices. Or they could introduce biases because they use incomplete, faulty or prejudicial data sets to train and validate the machine learning systems.**
-  The following definitions are taken from PiML website:
-* **In PiML we use 'Model fairness'to evaluate 'Metrics','Segmentation','Binning','Thresholding'.**
+  
+* **In PiML we use 'Model fairness'to evaluate 'Metrics','Segmentation','Binning','Thresholding'.The following definitions are taken from PiML website:**
 * **"Metrics measure the Adverse Impact Ratio (AIR),Precision,Recall,Standarized Mean Difference(for regression task)".**
 * **Segmentation:"It is used to display fairness results conditioning on a feature of interest.So we may effectively analyze and evaluate fairness at a granular level, allowing for a more comprehensive understanding of the model’s fairness performance across various segments of the data."**
 * **Feature Binning:"It is  used to  discretize / bin feature values that may lead to unfair results. There are three binning methods, quantile, uniform, and customize.It is one of the unfairness mitigation method"**
