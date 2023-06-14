@@ -68,6 +68,10 @@
 ![pfi  x](https://github.com/thebader9/RMLGROUP2/assets/111473895/7eef28c6-180c-4f59-af1a-008f945da5a0)
 ![pfi  x](https://github.com/thebader9/RMLGROUP2/assets/111473895/29df5850-78ae-4d73-b6d1-53bb9c1894f1)
 
+![pfi  x](https://github.com/thebader9/RMLGROUP2/assets/111473895/c180e50c-6eee-42e7-a982-82207e78f063)
+
+
+
 ## Q2)Remediate discovered Discrimination
 
 
