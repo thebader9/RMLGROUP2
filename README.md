@@ -29,7 +29,7 @@
 <br>
   
    <div align="left">
-   * ** The reference group for the above graph is "White" for race and "Male" for gender.** 
+   ##### The reference group for the above graph is "White" for race and "Male" for gender.
   
  <!-- Add some vertical space -->
 <br>
