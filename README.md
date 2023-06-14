@@ -13,7 +13,7 @@
 ### Categorizing Race & Gender
 
 #####
-![pfi  x](https://github.com/thebader9/RMLGROUP2/assets/111473895/f9647fc0-bc85-49db-9c81-1712326d347e)
+![pfi  x]((https://github.com/thebader9/RMLGROUP2/assets/111473895/97224b8e-0c13-492e-9a2c-e7e6f6da35ed))
 * ** **
 
 
