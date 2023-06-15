@@ -15,19 +15,19 @@
 
 ## Q2) Remediate Discovered Discrimination.
 ### 1st Bias remediation technique
-#### Modifying threshold to 0.22 gives increased accuracy and less bias towards Black people. However, raising the threshold increases the favorable response for the target variable which can put the application at risk.
+ Modifying threshold to 0.22 gives increased accuracy and less bias towards Black people. However, raising the threshold increases the favorable response for the target variable which can put the application at risk.
 <img width="470" alt="Q2 1" src="https://github.com/thebader9/RMLGROUP2/assets/111529115/0bc1aca2-c167-4b1b-aca3-c37402316153">
 
 ### 2nd Bias remediation technique
-#### Grid search remdiating technique with 100 models. Threshold is at 17% 
+ Grid search remdiating technique with 100 models. Threshold is at 17% 
  <img src="https://github.com/thebader9/RMLGROUP2/assets/111529115/78060ee3-7b52-425b-9d7d-cc94cbdbeff9" alt="Image" width="470" height="480">
 
 ## Q3) Retrain model and submit results
 
-#### based on the grid-search, retrain the model and find new AIR and AUC
+ based on the grid-search, retrain the model and find new AIR and AUC
 <img width="877" alt="Q3 1" src="https://github.com/thebader9/RMLGROUP2/assets/111529115/336fb3db-468f-457b-b9b1-70202dff21c0">
 
-#### Is our final model adversely impacting other groups than Black people? And get pridictions from test data. 
+ Is our final model adversely impacting other groups than Black people? And get pridictions from test data. 
 <img width="877" alt="Q3 2" src="https://github.com/thebader9/RMLGROUP2/assets/111529115/f94b283e-ca51-4a66-9ea5-e6a5bbfee6dc">
 
 ---------------------------------------------------------
