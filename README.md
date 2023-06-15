@@ -21,6 +21,7 @@ Modifying threshold to 0.22 gives increased accuracy and less bias towards Black
 
 ### 2nd Bias remediation technique
  Grid search remdiating technique with 100 models. Threshold is at 17% 
+ 
  <img src="https://github.com/thebader9/RMLGROUP2/assets/111529115/78060ee3-7b52-425b-9d7d-cc94cbdbeff9" alt="Image" width="470" height="480">
 
 ## Q3) Retrain model and submit results
