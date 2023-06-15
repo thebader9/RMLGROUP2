@@ -4,6 +4,37 @@
 ## Q1) Test model for Bias using AIR
 ### Bias in Machine learning
 * **Machine learning bias generally stems from problems introduced by the individuals who design and train the machine learning systems. They could either create algorithms that reflect unintended cognitive biases or real-life prejudices. Or they could introduce biases because they use incomplete, faulty or prejudicial data sets to train and validate the machine learning systems.**
+
+#### Confusion matrix for each group category including refrence group
+<img width="301" alt="Q1 1" src="https://github.com/thebader9/RMLGROUP2/assets/111529115/2da5d4b6-65ff-4e09-a94e-5d14039fe6c8">
+#### AIR for each protected group
+<img width="897" alt="Q1 2" src="https://github.com/thebader9/RMLGROUP2/assets/111529115/c9cf3e3c-758a-46bb-b010-1923ad039d10">
+<img width="897" alt="Q1 3" src="https://github.com/thebader9/RMLGROUP2/assets/111529115/70bbf41d-1a4c-45ed-aacd-68e20ad8150a">
+<img width="897" alt="Q1 4" src="https://github.com/thebader9/RMLGROUP2/assets/111529115/c0b25aea-b6c4-48a0-9ed0-76aa4cc9168d">
+
+## Q2) Remediate Discovered Discrimination.
+### 1st Bias remediation technique
+#### Modifying threshold to 0.22 gives increased accuracy and less bias towards Black people. However, raising the threshold increases the favorable response for the target variable which can put the application at risk.
+<img width="470" alt="Q2 1" src="https://github.com/thebader9/RMLGROUP2/assets/111529115/0bc1aca2-c167-4b1b-aca3-c37402316153">
+
+### 2nd Bias remediation technique
+#### Grid search remdiating technique with 100 models. Threshold is at 17% 
+ <img src="https://github.com/thebader9/RMLGROUP2/assets/111529115/78060ee3-7b52-425b-9d7d-cc94cbdbeff9" alt="Image" width="470" height="480">
+
+## Q3) Retrain model and submit results
+
+#### based on the grid-search, retrain the model and find new AIR and AUC
+<img width="877" alt="Q3 1" src="https://github.com/thebader9/RMLGROUP2/assets/111529115/336fb3db-468f-457b-b9b1-70202dff21c0">
+
+#### Is our final model adversely impacting other groups than Black people? And get pridictions from test data. 
+<img width="877" alt="Q3 2" src="https://github.com/thebader9/RMLGROUP2/assets/111529115/f94b283e-ca51-4a66-9ea5-e6a5bbfee6dc">
+
+---------------------------------------------------------
+# (Assignment 3 (PIML, addresses Q1 only. Kept for potentially adding it to model card)))
+
+## Q1) Test model for Bias using AIR 
+### Bias in Machine learning
+* **Machine learning bias generally stems from problems introduced by the individuals who design and train the machine learning systems. They could either create algorithms that reflect unintended cognitive biases or real-life prejudices. Or they could introduce biases because they use incomplete, faulty or prejudicial data sets to train and validate the machine learning systems.**
   
 * **In PiML we use 'Model fairness'to evaluate 'Metrics','Segmentation','Binning','Thresholding'.The following definitions are taken from PiML website:**
 * **"Metrics measure the Adverse Impact Ratio (AIR),Precision,Recall,Standarized Mean Difference(for regression task)".**
@@ -73,17 +104,7 @@
 ![pfi  x](https://github.com/thebader9/RMLGROUP2/assets/111473895/29df5850-78ae-4d73-b6d1-53bb9c1894f1)
 
 
-
-
-
-
-
-
-
-
-
-
-
+--------------------------------------------------------------
 
 
 
