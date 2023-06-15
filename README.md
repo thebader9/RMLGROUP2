@@ -33,7 +33,11 @@ Modifying threshold to 0.22 gives increased accuracy and less bias towards Black
 <img width="877" alt="Q3 2" src="https://github.com/thebader9/RMLGROUP2/assets/111529115/f94b283e-ca51-4a66-9ea5-e6a5bbfee6dc">
 
 ---------------------------------------------------------
-# (Assignment 3 (PIML, addresses Q1 only. Kept for potentially adding it to model card)))
+
+
+
+
+## (Assignment 3 (PIML, addresses Q1 only. Kept for potentially adding it to model card)
 
 ## Q1) Test model for Bias using AIR 
 ### Bias in Machine learning
