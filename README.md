@@ -7,6 +7,7 @@
 
 #### Confusion matrix for each group category including refrence group
 <img width="301" alt="Q1 1" src="https://github.com/thebader9/RMLGROUP2/assets/111529115/2da5d4b6-65ff-4e09-a94e-5d14039fe6c8">
+
 #### AIR for each protected group
 <img width="897" alt="Q1 2" src="https://github.com/thebader9/RMLGROUP2/assets/111529115/c9cf3e3c-758a-46bb-b010-1923ad039d10">
 <img width="897" alt="Q1 3" src="https://github.com/thebader9/RMLGROUP2/assets/111529115/70bbf41d-1a4c-45ed-aacd-68e20ad8150a">
