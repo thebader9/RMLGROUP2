@@ -70,7 +70,7 @@
    
 ### 2nd Bias remediation technique
 
-*   Grid search remediation technique with 150 models.Threshold is at 17% 
+  **Grid search remediation technique with 150 models.Threshold is at 17%.** 
 
 <br>
 
@@ -98,7 +98,7 @@
 | Black vs White   | 0.808 |
 | Females vs Males   | 0.958 |
   
-* The best AUC achieved was 0.7806, after remediation and the AIR (Adverse Impact Ratio) for the 'black' got better at 0.808 from 0.741 recorded in basic assesment.
+**The best AUC achieved was 0.7806, after remediation and the AIR (Adverse Impact Ratio) for the 'black' got better at 0.808 from 0.741 recorded in basic assesment.**
 
 
  
