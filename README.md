@@ -56,7 +56,7 @@
 *  Modifying threshold to 0.22 gives increased accuracy and less bias towards Black people. However, raising the threshold increases the favorable response for the target variable which can put the application at risk.
 <br>
 <br>
-<img width="897" alt="Q2 1" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/441158af-3899-48ee-8626-a1b9261289bd">
+<img width="690" alt="Q2 1" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/441158af-3899-48ee-8626-a1b9261289bd">
    
 |  Groups          | AIR |
 | ---------------- | --- |
@@ -84,7 +84,7 @@
    
  *  Based on the grid-search, model was retrained and new AIR and AUC was recorded.**
 <br>  
-<img width="890" alt="Q3 1" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/1e2b9b49-ff67-44a0-9205-4854733b8f81">
+<img width="690" alt="Q3 1" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/1e2b9b49-ff67-44a0-9205-4854733b8f81">
 <br>  
 <br> 
 
