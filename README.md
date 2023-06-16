@@ -90,7 +90,7 @@ Modifying threshold to 0.22 gives increased accuracy and less bias towards Black
 | Black vs White   | 0.808 |
 | Females vs Males   | 0.958 |
   
-
+<br> 
 <img width="500" alt="Q2 1" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/8e6e754c-a129-4952-ab73-4596da9bdbe4">
 
 
