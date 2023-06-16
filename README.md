@@ -51,6 +51,8 @@ Modifying threshold to 0.22 gives increased accuracy and less bias towards Black
  <div align="center">
    
  * **Based on the grid-search, model was retrained and new AIR and AUC was recorded.**
+<br>
+
     <div align="center">
    
 <img width="890" alt="Q3 1" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/1e2b9b49-ff67-44a0-9205-4854733b8f81">
