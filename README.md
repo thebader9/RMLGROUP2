@@ -21,9 +21,12 @@
 
 ## Q2) Remediate Discovered Discrimination.
 ### 1st Bias remediation technique
+<br>
 Modifying threshold to 0.22 gives increased accuracy and less bias towards Black people. However, raising the threshold increases the favorable response for the target variable which can put the application at risk.
-
-<img width="470" alt="Q2 1" src="https://github.com/thebader9/RMLGROUP2/assets/111529115/0bc1aca2-c167-4b1b-aca3-c37402316153">
+<br>
+<img width="897" alt="Q2 1" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/441158af-3899-48ee-8626-a1b9261289bd">
+ <div align="center">
+<img width="477" alt="Q2 1" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/9c67c677-43d1-40bb-ba87-39204d6297bd">
 
 ### 2nd Bias remediation technique
  Grid search remdiating technique with 100 models. Threshold is at 17% 
