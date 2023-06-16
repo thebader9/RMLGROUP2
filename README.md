@@ -4,55 +4,93 @@
 ## Q1) Test model for Bias using AIR
 ### Bias in Machine learning
 * **Machine learning bias generally stems from problems introduced by the individuals who design and train the machine learning systems. They could either create algorithms that reflect unintended cognitive biases or real-life prejudices. Or they could introduce biases because they use incomplete, faulty or prejudicial data sets to train and validate the machine learning systems.**
-  
- <div align="center">
-  
+
 ### Confusion matrix for each group category including Reference group
-<br>
+ 
+| Confusion Matrix (Black=1)|       |       |
+|---------------------------|-------|-------|
+| Actual                   |  1     | 0     |
+| **Predicted: 1**          | 470   | 911   |
+| **Predicted: 0**          | 194  | 1617  |
+|Confusion Matrix(Asian=1)|       |       |
+|    *Actual                |   1    | 0     |
+| **Predicted: 1**          | 95    | 176   |
+| **Predicted: 0**          | 53    |2926   |
+| Confusion Matrix (White=1)|       |       |
+|  Actual                  |   1     | 0     |
+| **Predicted: 1**          |  1965 | 6117  |
+| **Predicted: 0**          | 1200  | 25243  |
+| Confusion Matrix (Male=1)  |       |       |
+|  Actual                  |   1     | 0     |
+| **Predicted: 1**          | 1036  | 3122   |
+| **Predicted: 0**          | 628   | 11046 |
+| Confusion Matrix (Female=1)|       |       |
+|   Actual                 |   1     | 0     |
+| **Predicted: 1**          | 847   | 2175  |
+| **Predicted: 0**          | 393   | 6617  |
+
+
   
-<img width="501" alt="Q1 1" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/c00265b8-e2f8-471a-b13e-b9baff76b26b">
+
+<br>
 
 ### Adverse Impact Ratio for each protected group
 <br>
 <img width="890" alt="Q1 2" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/3a634f31-9c7d-4bc6-8425-d614b637d214">
 
  * **The reference group for the above graph is "White" for race and "Male" for gender.The  adverse impact ratio for group 'black' is 0.748 and 'female' is O.948.Generally,an adverse impact ratio below 1.0 (or 100%) indicates that the protected group is likely to get 'high priced mortagage' compared to the reference group, suggesting potential adverse impact or disparities that may require further investigation to ensure fair and unbiased practices.**
-<br>
- <br>
-<br>
+  
+|  Groups          | AIR |
+| ---------------- | --- |
+| Asian vs White   | 1.197 |
+| Black vs White   | 0.741 |
+| Females vs Males  | 0.948 |
 
+
+  
 ## Q2) Remediate Discovered Discrimination.
-### 1st Bias remediation technique
+###   1st Bias remediation technique
 <br>
 Modifying threshold to 0.22 gives increased accuracy and less bias towards Black people. However, raising the threshold increases the favorable response for the target variable which can put the application at risk.
 <br>
 <br>
 <img width="897" alt="Q2 1" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/441158af-3899-48ee-8626-a1b9261289bd">
- <div align="center">
-<img width="550" alt="Q2 1" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/9c67c677-43d1-40bb-ba87-39204d6297bd">
-<br>
-<br>
    
-### Second Bias remediation technique
- <div align="center">
+|  Groups          | AIR |
+| ---------------- | --- |
+| Asian vs White   | 1.128 |
+| Black vs White   | 0.816 |
+| Females vs Males   | 0.965 |
+
+ 
    
-   #### Grid search remediation technique with 150 models.Threshold is at 17% 
+### 2nd Bias remediation technique
+  <div align="center"> 
+   Grid search remediation technique with 150 models.Threshold is at 17% 
 <br>
 
-  <div align="center">
     
    <img src="https://github.com/thebader9/RMLGROUP2/assets/111473895/408c37e4-6fdd-4443-b037-a43e452633db" alt="Image" width="470" height="480">
+
 <br>
 <br>
+  <br>
 
 ### Q3) Retrain model and submit results
-
- <div align="center">
-   <br>
    
  * **Based on the grid-search, model was retrained and new AIR and AUC was recorded.**
 <br>  
 <img width="890" alt="Q3 1" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/1e2b9b49-ff67-44a0-9205-4854733b8f81">
+<br>  
+  <br> 
+  
+|  Groups          | AIR |          
+| ---------------- | --- |
+| Asian vs White   | 1.151 |
+| Black vs White   | 0.808 |
+| Females vs Males   | 0.958 |
+  
+
 <img width="500" alt="Q2 1" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/8e6e754c-a129-4952-ab73-4596da9bdbe4">
 
 
