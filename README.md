@@ -43,7 +43,8 @@ Modifying threshold to 0.22 gives increased accuracy and less bias towards Black
   <div align="center">
     
    <img src="https://github.com/thebader9/RMLGROUP2/assets/111473895/408c37e4-6fdd-4443-b037-a43e452633db" alt="Image" width="470" height="480">
-
+<br>
+<br>
 ## Q3) Retrain model and submit results
  <div align="center">
    
