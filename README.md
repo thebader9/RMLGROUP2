@@ -48,6 +48,7 @@ Modifying threshold to 0.22 gives increased accuracy and less bias towards Black
 ### Q3) Retrain model and submit results
 
  <div align="center">
+   <br>
    
  * **Based on the grid-search, model was retrained and new AIR and AUC was recorded.**
 <br>  
