@@ -32,12 +32,12 @@
 | **Predicted: 1**          | 847   | 2175  |
 | **Predicted: 0**          | 393   | 6617  |
 
+<br>
 
+### Validation AUC from basic asssesment: 0.8253.
   
 
 <br>
-
-### Adverse Impact Ratio for each protected group
 <br>
 <img width="890" alt="Q1 2" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/3a634f31-9c7d-4bc6-8425-d614b637d214">
 
