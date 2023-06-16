@@ -36,7 +36,7 @@
 ### Validation AUC from basic asssesment: 0.8253.
   
 <br>
-<img width="890" alt="Q1 2" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/3a634f31-9c7d-4bc6-8425-d614b637d214">
+<img width="790" alt="Q1 2" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/3a634f31-9c7d-4bc6-8425-d614b637d214">
 
 <br>
 
