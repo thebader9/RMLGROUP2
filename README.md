@@ -25,7 +25,6 @@
 ## Q2) Remediate Discovered Discrimination.
 ### 1st Bias remediation technique
 <br>
-<br>
 Modifying threshold to 0.22 gives increased accuracy and less bias towards Black people. However, raising the threshold increases the favorable response for the target variable which can put the application at risk.
 <br>
 <br>
