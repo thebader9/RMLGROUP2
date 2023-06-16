@@ -86,9 +86,7 @@
    
    **Based on the grid-search, model was retrained and new AIR and AUC was recorded.**
 <br>  
-<img width="690" alt="Q3 1" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/1e2b9b49-ff67-44a0-9205-4854733b8f81">
-<br>  
-<br> 
+<img width="690" alt="Q3 1" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/1e2b9b49-ff67-44a0-9205-4854733b8f81"> 
 
   <div align="center">
    
