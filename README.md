@@ -12,7 +12,8 @@
 <img width="501" alt="Q1 1" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/c00265b8-e2f8-471a-b13e-b9baff76b26b">
 
 ### Adverse Impact Ratio for each protected group
-<img width="897" alt="Q1 2" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/3a634f31-9c7d-4bc6-8425-d614b637d214">
+<br>
+<img width="890" alt="Q1 2" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/3a634f31-9c7d-4bc6-8425-d614b637d214">
 
  * **The reference group for the above graph is "White" for race and "Male" for gender.The  adverse impact ratio for group 'black' is 0.748 and 'female' is O.948.Generally,an adverse impact ratio below 1.0 (or 100%) indicates that the protected group is likely to get 'high priced mortagage' compared to the reference group, suggesting potential adverse impact or disparities that may require further investigation to ensure fair and unbiased practices.**
 <br>
@@ -22,7 +23,9 @@
 ## Q2) Remediate Discovered Discrimination.
 ### 1st Bias remediation technique
 <br>
+<br>
 Modifying threshold to 0.22 gives increased accuracy and less bias towards Black people. However, raising the threshold increases the favorable response for the target variable which can put the application at risk.
+<br>
 <br>
 <img width="897" alt="Q2 1" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/441158af-3899-48ee-8626-a1b9261289bd">
  <div align="center">
