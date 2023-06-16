@@ -69,7 +69,7 @@
    
 ### Second Bias remediation technique
 
-  **Grid search remediation technique with 150 models.Threshold is at 17%.** 
+  **Grid search remediation technique with 150 models.Threshold is at 0.17.** 
 
 <br>
 
