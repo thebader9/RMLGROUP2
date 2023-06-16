@@ -9,6 +9,7 @@
   
 ### Confusion matrix for each group category including Reference group
 <br>
+
  <div align="center">
   
 <img width="501" alt="Q1 1" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/c00265b8-e2f8-471a-b13e-b9baff76b26b">
