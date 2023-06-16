@@ -47,9 +47,10 @@
 | Females vs Males  | 0.948 |
 <br>
 <br>
- * The reference group for the above graph is "White" for race and "Male" for gender.The  adverse impact ratio for group 'black' is 0.741 and 'female' is O.948.Generally,an adverse impact ratio below 1.0 (or 100%) indicates that the protected group is likely to get 'high priced mortagage' compared to the reference group, suggesting potential adverse impact or disparities that may require further investigation to ensure fair and unbiased practices.**
+ * **Basic Assesment:As mentioned above the 'Area under curve is 0.8253.The reference group for the above 'Adverse impact ratio' graph is "White" for race and "Male" for gender.The  adverse impact ratio for group 'black' is 0.741 and 'female' is O.948.Generally,an adverse impact ratio below 1.0 (or 100%) indicates that the protected group is likely to get 'high priced mortagage' compared to the reference group, suggesting potential adverse impact or disparities that may require further investigation to ensure fair and unbiased practices.Next we try to increase the 'AIR'values for the protected group using remediation techniques.**
   
-  
+ <br> 
+ 
 ## Q2) Remediate Discovered Discrimination.
 ###   1st Bias remediation technique
 
@@ -96,7 +97,7 @@
 | Black vs White   | 0.808 |
 | Females vs Males   | 0.958 |
   
-* The best AUC achieved was 0.7806, while the remediated EBM retrained with AUC also had a value of 0.7806. Additionally, there was an AIR (Adverse Impact Ratio) above 0.8, specifically 0.8083.
+* The best AUC achieved was 0.7806, after remediation and the AIR (Adverse Impact Ratio) for the 'black' got better at 0.808 from 0.741 recorded in basic assesment.
 
 
  
