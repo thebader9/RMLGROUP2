@@ -44,7 +44,8 @@
 | Asian vs White   | 1.197 |
 | Black vs White   | 0.741 |
 | Females vs Males  | 0.948 |
-
+<br>
+<br>
  * The reference group for the above graph is "White" for race and "Male" for gender.The  adverse impact ratio for group 'black' is 0.741 and 'female' is O.948.Generally,an adverse impact ratio below 1.0 (or 100%) indicates that the protected group is likely to get 'high priced mortagage' compared to the reference group, suggesting potential adverse impact or disparities that may require further investigation to ensure fair and unbiased practices.**
   
   
