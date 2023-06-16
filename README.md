@@ -32,24 +32,21 @@
 | **Predicted: 1**          | 847   | 2175  |
 | **Predicted: 0**          | 393   | 6617  |
 
-<br>
 
 ### Validation AUC from basic asssesment: 0.8253.
   
-
-<br>
 <br>
 <img width="890" alt="Q1 2" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/3a634f31-9c7d-4bc6-8425-d614b637d214">
 
- * The reference group for the above graph is "White" for race and "Male" for gender.The  adverse impact ratio for group 'black' is 0.741 and 'female' is O.948.Generally,an adverse impact ratio below 1.0 (or 100%) indicates that the protected group is likely to get 'high priced mortagage' compared to the reference group, suggesting potential adverse impact or disparities that may require further investigation to ensure fair and unbiased practices.**
-  
+
 |  Groups          | AIR |
 | ---------------- | --- |
 | Asian vs White   | 1.197 |
 | Black vs White   | 0.741 |
 | Females vs Males  | 0.948 |
 
-
+ * The reference group for the above graph is "White" for race and "Male" for gender.The  adverse impact ratio for group 'black' is 0.741 and 'female' is O.948.Generally,an adverse impact ratio below 1.0 (or 100%) indicates that the protected group is likely to get 'high priced mortagage' compared to the reference group, suggesting potential adverse impact or disparities that may require further investigation to ensure fair and unbiased practices.**
+  
   
 ## Q2) Remediate Discovered Discrimination.
 ###   1st Bias remediation technique
