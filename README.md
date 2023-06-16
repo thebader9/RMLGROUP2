@@ -45,21 +45,27 @@ Modifying threshold to 0.22 gives increased accuracy and less bias towards Black
    <img src="https://github.com/thebader9/RMLGROUP2/assets/111473895/408c37e4-6fdd-4443-b037-a43e452633db" alt="Image" width="470" height="480">
 <br>
 <br>
-## Q3) Retrain model and submit results
+
+### Q3) Retrain model and submit results
+
  <div align="center">
    
  * **Based on the grid-search, model was retrained and new AIR and AUC was recorded.**
     <div align="center">
    
 <img width="890" alt="Q3 1" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/1e2b9b49-ff67-44a0-9205-4854733b8f81">
-<img width="550" alt="Q2 1" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/8e6e754c-a129-4952-ab73-4596da9bdbe4">
+<img width="500" alt="Q2 1" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/8e6e754c-a129-4952-ab73-4596da9bdbe4">
 
 
- Is our final model adversely impacting other groups than Black people? And get pridictions from test data. 
-<img width="877" alt="Q3 2" src="https://github.com/thebader9/RMLGROUP2/assets/111529115/f94b283e-ca51-4a66-9ea5-e6a5bbfee6dc">
+ 
 
----------------------------------------------------------
-
+-----------------------------------------------------------------------------------------------------------
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
