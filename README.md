@@ -12,6 +12,9 @@
 
 ### Adverse Impact Ratio for each protected group
 <img width="897" alt="Q1 2" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/3a634f31-9c7d-4bc6-8425-d614b637d214">
+ * **The reference group for the above graph is "White" for race and "Male" for gender.The  adverse impact ratio for group 'black' is 0.71 and 'female' is O.94.Generally,an adverse impact ratio below 1.0 (or 100%) indicates that the protected group is likely to get 'high priced mortagage' compared to the reference group, suggesting potential adverse impact or disparities that may require further investigation to ensure fair and unbiased practices.**
+
+ 
 <img width="897" alt="Q1 3" src="https://github.com/thebader9/RMLGROUP2/assets/111529115/70bbf41d-1a4c-45ed-aacd-68e20ad8150a">
 <img width="897" alt="Q1 4" src="https://github.com/thebader9/RMLGROUP2/assets/111529115/c0b25aea-b6c4-48a0-9ed0-76aa4cc9168d">
 
