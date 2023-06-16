@@ -10,8 +10,8 @@
 
 <img width="501" alt="Q1 1" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/c00265b8-e2f8-471a-b13e-b9baff76b26b">
 
-### AIR for each protected group
-<img width="897" alt="Q1 2" src="https://github.com/thebader9/RMLGROUP2/assets/111529115/c9cf3e3c-758a-46bb-b010-1923ad039d10">
+### Adverse Impact Ratio for each protected group
+<img width="897" alt="Q1 2" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/3a634f31-9c7d-4bc6-8425-d614b637d214">
 <img width="897" alt="Q1 3" src="https://github.com/thebader9/RMLGROUP2/assets/111529115/70bbf41d-1a4c-45ed-aacd-68e20ad8150a">
 <img width="897" alt="Q1 4" src="https://github.com/thebader9/RMLGROUP2/assets/111529115/c0b25aea-b6c4-48a0-9ed0-76aa4cc9168d">
 
