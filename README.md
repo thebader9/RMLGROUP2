@@ -37,18 +37,18 @@
   
 <br>
 <img width="690" alt="Q1 2" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/3a634f31-9c7d-4bc6-8425-d614b637d214">
+ <br>
+ <br>
+ <br>
 
-<br>
-
+ 
 |  Groups          | AIR |
 | ---------------- | --- |
 | Asian vs White   | 1.197 |
 | Black vs White   | 0.741 |
 | Females vs Males  | 0.948 |
 <br>
-<br>
-
- * **Basic Assesment:As mentioned above the 'Area under curve is 0.8253.The reference group for the above 'Adverse impact ratio' graph is "White" for race and "Male" for gender.The  adverse impact ratio for group 'black' is 0.741 and 'female' is O.948.Generally,an adverse impact ratio below 1.0 (or 100%) indicates that the protected group is likely to get 'high priced mortagage' compared to the reference group, suggesting potential adverse impact or disparities that may require further investigation to ensure fair and unbiased practices.Next we try to increase the 'AIR'values for the protected group using remediation techniques.**
+ * Basic Assesment:As mentioned above the 'Area under curve is 0.8253.The reference group for the above 'Adverse impact ratio' graph is "White" for race and "Male" for gender.The  adverse impact ratio for group 'black' is 0.741 and 'female' is O.948.Generally,an adverse impact ratio below 1.0 (or 100%) indicates that the protected group is likely to get 'high priced mortagage' compared to the reference group, suggesting potential adverse impact or disparities that may require further investigation to ensure fair and unbiased practices.Next we try to increase the 'AIR'values for the protected group using remediation techniques.
   
  <br> 
  
