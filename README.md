@@ -35,7 +35,6 @@ Modifying threshold to 0.22 gives increased accuracy and less bias towards Black
 <br>
    
 ### Second Bias remediation technique
-
 <br>
  <div align="center">
    
