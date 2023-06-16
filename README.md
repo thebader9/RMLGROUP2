@@ -6,6 +6,7 @@
 * **Machine learning bias generally stems from problems introduced by the individuals who design and train the machine learning systems. They could either create algorithms that reflect unintended cognitive biases or real-life prejudices. Or they could introduce biases because they use incomplete, faulty or prejudicial data sets to train and validate the machine learning systems.**
 
 ### Confusion matrix for each group category including Reference group
+<br>
 
 <div align="center">
  
