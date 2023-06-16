@@ -34,7 +34,7 @@
 
 <br>
 
-*  Adverse Impact Ratio for each protected group
+### Adverse Impact Ratio for each protected group
 <br>
 <img width="890" alt="Q1 2" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/3a634f31-9c7d-4bc6-8425-d614b637d214">
 
@@ -85,7 +85,9 @@
 <img width="890" alt="Q3 1" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/1e2b9b49-ff67-44a0-9205-4854733b8f81">
 <br>  
 <br> 
-  
+
+  <div align="center">
+   
 |  Groups          | AIR |          
 | ---------------- | --- |
 | Asian vs White   | 1.151 |
@@ -104,10 +106,14 @@
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
-## (Assignment 3 (PIML, addresses Q1 only. Kept for potentially adding it to model card)
 
 ## Q1) Test model for Bias using AIR 
 ### Bias in Machine learning
