@@ -1,4 +1,5 @@
 # Responsible Machine Learning - Bias Testing & Remediation
+<div align="center">
 # (Assignment 3)
 
 ## Q1) Test model for Bias using AIR
