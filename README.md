@@ -85,17 +85,17 @@
    
    **Based on the grid-search, model was retrained and new AIR and AUC was recorded.**
 <br>  
-<img width="690" alt="Q3 1" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/1e2b9b49-ff67-44a0-9205-4854733b8f81"> 
+<img width="690" alt="Q3 1" src="https://github.com/thebader9/RMLGROUP2/assets/111473895/74632339-6be1-437b-8d72-1dbde00e25a9"> 
 
   <div align="center">
    
 |  Groups          | AIR |          
 | ---------------- | --- |
 | Asian vs White   | 1.151 |
-| Black vs White   | 0.808 |
+| Black vs White   | 0.807 |
 | Females vs Males   | 0.958 |
   
-**The best AUC achieved was 0.7806, after remediation and the AIR (Adverse Impact Ratio) for the 'black' got better at 0.808 from 0.741 recorded in basic assesment.**
+**The best AUC achieved was 0.7809, after remediation and the AIR (Adverse Impact Ratio) for the 'black' got better at 0.807 from 0.741 recorded in basic assesment.**
 
 
  
