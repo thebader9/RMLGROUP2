@@ -17,7 +17,8 @@
 ![Most important features of stolen model](https://github.com/thebader9/RMLGROUP2/assets/111529115/5fb5a4a6-70c3-4b05-8cf9-70b80cfff027)
    
 
-
+<div style="text-align: left;">
+ 
 ## Q2)  Finding adversarial examples 
 ### High and low adversarial examples 
    <img src="https://github.com/thebader9/RMLGROUP2/assets/111529115/2ee87a21-904e-43c3-8d1d-46fa87fefc55" alt="Image" width="300" height="310">
