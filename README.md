@@ -25,7 +25,7 @@
    <br>
    <br>
    
-   * **As seen from the table above the value 0.58 is likely above the cutoff for most credit models.It can be   used to falsify a loan application to recieve a low-priced mortgage or it could be used to ensure someone else receive a high-priced mortgage.**
+   * **As seen from the table above the phat value 0.58 is likely above the cutoff for most credit models.It can be   used to falsify a loan application to recieve a low-priced mortgage or it could be used to ensure someone else receive a high-priced mortgage.**
 
 
 ----------------------------------------------------------------------------------------------------
