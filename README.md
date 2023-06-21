@@ -10,7 +10,8 @@
    <img src="https://github.com/thebader9/RMLGROUP2/assets/111529115/62793c55-47e0-4c30-968d-e0903b88fdf8" alt="Image" width="990" height="330">
 
 
-#### What are the most important variables of the stolen model? This will help attacker know which variables to target to manipulate training data
+### What are the most important variables of the stolen model? 
+#### This will help attacker know which variables to target to manipulate training data
 ![Most important features of stolen model](https://github.com/thebader9/RMLGROUP2/assets/111529115/5fb5a4a6-70c3-4b05-8cf9-70b80cfff027)
    
 
