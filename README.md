@@ -17,7 +17,8 @@
 ![Most important features of stolen model](https://github.com/thebader9/RMLGROUP2/assets/111529115/5fb5a4a6-70c3-4b05-8cf9-70b80cfff027)
    
 
-<div style="text-align: left;">
+<div align="left">
+   
  
  ## Q2)  Finding adversarial examples 
 
