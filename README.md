@@ -2,6 +2,9 @@
 # (Assignment 4)
 
 ## Q1) White-hat model extraction attack
+
+ <div align="center">
+  
 ### Generating data with expected input variables for extraction attack
  <div align="center">
     
