@@ -11,7 +11,8 @@
 
 
 #### What are the most important variables of the stolen model? This will help attacker know which variables to target to manipulate training data
-   <img src="https://github.com/thebader9/RMLGROUP2/assets/111529115/5fb5a4a6-70c3-4b05-8cf9-70b80cfff027" alt="Image" width="595" height="510">
+![Most important features of stolen model](https://github.com/thebader9/RMLGROUP2/assets/111529115/5fb5a4a6-70c3-4b05-8cf9-70b80cfff027)
+   
 
 
 ## Q2)  Finding adversarial examples 
