@@ -5,7 +5,7 @@
 ### Generating data with expected input variables for extraction attack
  <div align="center">
     
-   <img src="https://github.com/thebader9/RMLGROUP2/assets/111529115/b7ada369-e187-4d7d-bdcf-16266c99417a" alt="Image" width="500" height="510">
+   <img src="https://github.com/thebader9/RMLGROUP2/assets/111529115/b7ada369-e187-4d7d-bdcf-16266c99417a" alt="Image" width="400" height="410">
 
 
 ### Extracting a stolen decision tree model
