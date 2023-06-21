@@ -1,3 +1,28 @@
+# Responsible Machine Learning - Machine Learning Security
+# (Assignment 4)
+
+## Q1) White-hat model extraction attack
+### Generating data with expected input variables for extraction attack
+   <img src="https://github.com/thebader9/RMLGROUP2/assets/111529115/b7ada369-e187-4d7d-bdcf-16266c99417a" alt="Image" width="500" height="510">
+
+
+### Extracting a stolen decision tree model
+   <img src="https://github.com/thebader9/RMLGROUP2/assets/111529115/62793c55-47e0-4c30-968d-e0903b88fdf8" alt="Image" width="990" height="330">
+
+
+#### What are the most important variables of the stolen model? This will help attacker know which variables to target to manipulate training data
+   <img src="https://github.com/thebader9/RMLGROUP2/assets/111529115/5fb5a4a6-70c3-4b05-8cf9-70b80cfff027" alt="Image" width="595" height="510">
+
+
+## Q2)  Finding adversarial examples 
+### High and low adversarial examples 
+   <img src="https://github.com/thebader9/RMLGROUP2/assets/111529115/2ee87a21-904e-43c3-8d1d-46fa87fefc55" alt="Image" width="170" height="210">
+
+### Testing adversarial examples
+   <img src="https://github.com/thebader9/RMLGROUP2/assets/111529115/aea38330-a316-4a6e-84dd-7eacb053f1a1b" alt="Image" width="850" height="300">
+
+
+----------------------------------------------------------------------------------------------------
 # Responsible Machine Learning - Bias Testing & Remediation
 # (Assignment 3)
 
