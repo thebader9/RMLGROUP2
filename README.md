@@ -1,5 +1,5 @@
 # Responsible Machine Learning - Machine Learning Security
-# (Assignment 5)
+# Assignment 5
 
 
 
