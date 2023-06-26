@@ -101,7 +101,7 @@
    <br>
  **hmda train preprocessed.zip – https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
    <br>
-􏰀**hmda test preprocessed.zip – https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
+􏰀**hmdatest preprocessed.zip – https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
 
 
 
