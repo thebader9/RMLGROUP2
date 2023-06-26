@@ -90,6 +90,93 @@
 
 -------------------------------------------------------------------------------------------------------------------
 
+# Assignment 6
+
+## Basic Information
+
+* **Team Members**:
+
+* **Intended use**:The model card is developed for academic purpose.Any use beyond an educational reference is out-of-scope. 
+* **Training & Evaluation data**:The data 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # (Assignment 4)
 
 ## Q1) White-hat model extraction attack
