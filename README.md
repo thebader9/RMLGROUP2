@@ -133,8 +133,8 @@
  |conforming                  |Input   |Binary numeric  |Whether the mortgage conforms to normal standards |
  |                            |        |                | (1),or whether the loan is different (0)         |
  |high_priced_mortgage        |Target  |Binary          |Whether (1) or not (0) the annual APR charged for |
-                                                          a mortgage is 150 basis points or more above a   |
-                                                          survey-based estimate of similar mortgages.      |
+ |                            |        |                |a mortgage is 150 basis points or more above a    |
+ |                            |        |                | survey-based estimate of similar mortgages.      |
 
 
 
