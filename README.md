@@ -119,19 +119,20 @@
 
  <div align="center">
    
- | Name                      | Modeling   | Data | Description |       
- |:--------------------------:|:---------:|:----:|:-----------:|                          
- |:debt_to_income_ratio_std:  |
- |
- |
- |
- |
- |
- |
- |
- |
-
-
+ | Name                      | Modeling| Data           | Description                                   |       
+ |:--------------------------:|:------:|:--------------:|:---------------------------------------------:|                          
+ |debt_to_income_ratio_std    |Input   |Numeric         |
+ |debt_to_income_ratio_missing|Input   |Binary numeric  |
+ |income_std                  |Input   |Numeric         |
+ |loan_amount_ std            |Input   |Numeric         |
+ |intro_rate_period_std       |Input   |Numeric         |
+ |loan_to_value_ratio_std     |Input   |Numeric         |
+ |no_intro_rate_period_std    |Input   |Binary numeric  |
+ |property_value_std          |Input   |Numeric         |
+ |term_360                    |Input   |Binary numeric  |
+ |conforming                  |Input   |Binary numeric  |whether the mortgage conforms to normal standards (1), 
+                                                          or whether the loan is different (0)
+ |high_priced_mortgage        |Target  |Binary          |
 
 
 
