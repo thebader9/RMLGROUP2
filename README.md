@@ -98,11 +98,20 @@
 * **Model date:** June,2023
 * **Model Version:** 1
 * **License:** Apache 2.0
+
+* **Case Background:** High-priced mortgages are legal, but punitive to borrowers. High-priced mortgages often fall on the shoulders of minority home owners, and are one of many issues that leads to a massive disparity in overall wealth between different demographic groups in the USA.We tried to test our best performing explainable ML model across major demographic groups for discriminatory outcomes using Adverse impact ratio (AIR),to include Asian,Black and White people and also males and females.
   
 ## Intended use
-The model card is developed for academic purpose.Any use beyond an educational reference is out-of-scope. 
-* **Training & Evaluation data**:The Home Mortgage Disclosure Act (HMDA) dataset is used for the study.The unlabeled test dataset is used to score our  models and scores are submitted as part of assignment deliverable.
-   <br>
+
+* **Primary business value:** To ensure customers gets fair priced mortgage across all socio-demographic group.The model will help the lenders to make informed decision and retain customers for a long time.
+* **Primary intended uses:** The remediated model is an example of an end-to-end credit modeling process that is intended to be used as a guide for finding a less discriminatory model in deciding 'high priced mortgage'by lenders.
+* **Primary intended users:** Researchers and Students
+* **Out-of-scope use cases:**  Any use beyond educational reference is out-of-scope.
+
+
+## Training & Evaluation data
+
+* The Home Mortgage Disclosure Act (HMDA) dataset is used for the study.
  **hmda train preprocessed.zip – https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
    <br>
   **hmda test preprocessed.zip – https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
