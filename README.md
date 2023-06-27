@@ -104,8 +104,7 @@
   **hmda test preprocessed.zip – https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
   <br>
   
-* **Model Details**
-  
+* **Model Details** 
 * Training data contains 160338 rows and 23 columns. Test data contains 19831 rows and 22 columns. 
 
 
