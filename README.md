@@ -143,7 +143,8 @@
 
 
 
-
+<div align="left">
+  
 ## Evaluation  dataset
 * **The Home Mortgage Disclosure Act (HMDA) dataset is used for the study.** 
   **hmda test preprocessed.zip – https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
