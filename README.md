@@ -121,9 +121,10 @@
    
  | Name                      | Modeling| Data           | Description                                   |       
  |:--------------------------:|:------:|:--------------:|:---------------------------------------------:|                          
- |debt_to_income_ratio_std    |Input   |Numeric         |
+ |debt_to_income_ratio_std    |Input   |Numeric         |Standardized debt-to-income ratio for mortgage
+                                                                         applicants.                    |
  |debt_to_income_ratio_missing|Input   |Binary numeric  |
- |income_std                  |Input   |Numeric         |
+ |income_std                  |Input   |Numeric         |                
  |loan_amount_ std            |Input   |Numeric         |
  |intro_rate_period_std       |Input   |Numeric         |
  |loan_to_value_ratio_std     |Input   |Numeric         |
