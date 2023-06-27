@@ -117,8 +117,8 @@
 
 **Data Dictionary:**
 
-| Name                      |Modeling| Data | Description |       
-|                           |  Role  | Type |             |                      
+ | Name                      | Modeling   | Data | Description |       
+ |:--------------------------:|:---------:|:----:|:-----------:|                          
 
 
 
