@@ -130,9 +130,11 @@
  |no_intro_rate_period_std    |Input   |Binary numeric  |
  |property_value_std          |Input   |Numeric         |
  |term_360                    |Input   |Binary numeric  |
- |conforming                  |Input   |Binary numeric  |whether the mortgage conforms to normal standards |
+ |conforming                  |Input   |Binary numeric  |Whether the mortgage conforms to normal standards |
  |                            |        |                | (1),or whether the loan is different (0)         |
- |high_priced_mortgage        |Target  |Binary          |
+ |high_priced_mortgage        |Target  |Binary          |Whether (1) or not (0) the annual APR charged for |
+                                                          a mortgage is 150 basis points or more above a   |
+                                                          survey-based estimate of similar mortgages.      |
 
 
 
