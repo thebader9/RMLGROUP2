@@ -1,6 +1,26 @@
 # Responsible Machine Learning - Machine Learning Security
 # Assignment 5
 
+### Q1) Test How this Lending Model Performs in Recession Conditions 
+
+#### Features Behavioral analysis post-recession
+![download](https://github.com/thebader9/RMLGROUP2/assets/111529115/5b11556b-4734-44cc-b631-f709f14425f9)
+
+* Remediated EBM retrained with AUC, in Recession Conditiotions: 0.6126.
+
+### Q2)  Conduct Residual Analysis and Remediate Discovered Bugs.
+![download](https://github.com/thebader9/RMLGROUP2/assets/111529115/30871f8b-ce8c-4d64-816b-19f079de4991)
+
+Plotting residuals is a model debugging and diagnostic tool that enables users to see modeling results, and any anomolies, in a single two-dimensional plot. Here the pink points represent customers who defaulted, and the blue points represent customers who did not. A few potential outliers are visible. There appear to be several cases in the validation data with relatively large residuals.
+*  ***Residuals are very unbalanced. This model struggles to predict when customers will recieve a high-priced loan correctly. It does much better when predicting customers will NOT receive a high-priced loan. There are also some very noticable outliers.***
+
+####  Remediation:
+* Find outliers, then Reomve worst Outliers
+* Down-sample to Increase Signal from High-priced Loans
+
+#### Retraining best model(EBM) after removing outliers and handling data impbalance
+* Remediated EBM true validation data, AUC: 0.7859.
+
 
 
 
