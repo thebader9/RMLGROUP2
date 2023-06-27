@@ -151,24 +151,10 @@
 * **Test data contains 19831 rows and 22 columns**
 * **Test data is unlabeled and does not include 'high_priced_mortagage' target variable.**
 
-   
- 
-  
-  
-  
-  
-  
-  
-  
-  
+ <br>
+ <br>
 
-  <br>
-  
- 
-  <br>
-  
-* **Model Details:** 
-
+ ## Model Details
 **Columns used as inputs: 'debt_to_income_ratio_std','debt_to_income_ratio_missing','income_std',      'loan_amount_ std', 'intro_rate_period_std', 'loan_to_value_ratio_std','no_intro_rate_period_std',          'property_value_std','term_360''conforming'**
 **Column used as target variable in the model: 'High-priced mortagage'** 
 **Software used to implement the models: Numpy,matplotlib,Sklearn, PiML, Python, XGBoost,EBM**
@@ -177,6 +163,7 @@ Numpy version: 1.23.5
 PiML version: 4.3
 Python version: 3.9.16
 XGBoost version: 1.7.2
+
 Hyperparameters or other settings of the final model:
 N_interactions: default 10
 Batch_size: default 1000
