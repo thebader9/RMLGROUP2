@@ -119,13 +119,14 @@
 
  <div align="center">
    
- | Name                      | Modeling| Data           | Description                                   |       
- |:--------------------------:|:------:|:--------------:|:---------------------------------------------:|                          
+ | Name                      | Modeling| Data           | Description                                    |       
+ |:--------------------------:|:------:|:--------------:|:---------------------------------------------: |                          
  |debt_to_income_ratio_std    |Input   |Numeric         |Standardized debt-to-income ratio for mortgage
- |                            |        |                |  applicants.                                  |
- |debt_to_income_ratio_missing|Input   |Binary numeric  |
- |income_std                  |Input   |Numeric         |                
- |loan_amount_ std            |Input   |Numeric         |
+ |                            |        |                |  applicants.                                    |
+ |debt_to_income_ratio_missing|Input   |Binary numeric  |Missing marker (1) for debt to income ratio std  |
+ |income_std                  |Input   |Numeric         |Standardized income for mortgage applicants.     |  
+ |                            |        |                |
+ |loan_amount_ std            |Input   |Numeric         |Standardized amount of the mortgage for applicants.
  |intro_rate_period_std       |Input   |Numeric         |
  |loan_to_value_ratio_std     |Input   |Numeric         |
  |no_intro_rate_period_std    |Input   |Binary numeric  |
