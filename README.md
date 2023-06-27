@@ -119,26 +119,6 @@
 
 | Name                      |Modeling| Data | Description |       
 |                           |  Role  | Type |             |                      
-|
-|                 
-| **Predicted: 1**          | 470   | 911   |
-| **Predicted: 0**          | 194  | 1617  |
-|Confusion Matrix(Asian=1)|       |       |
-|    *Actual                |   1    | 0     |
-| **Predicted: 1**          | 95    | 176   |
-| **Predicted: 0**          | 53    |2926   |    
-| Confusion Matrix (White=1)|       |       |
-|  Actual                  |   1     | 0     |
-| **Predicted: 1**          |  1965 | 6117  |
-| **Predicted: 0**          | 1200  | 25243  |
-| Confusion Matrix (Male=1)  |       |       |
-|  Actual                  |   1     | 0     |
-| **Predicted: 1**          | 1036  | 3122   |
-| **Predicted: 0**          | 628   | 11046 |
-| Confusion Matrix (Female=1)|       |       |
-|   Actual                 |   1     | 0     |
-| **Predicted: 1**          | 847   | 2175  |
-| **Predicted: 0**          | 393   | 6617  |
 
 
 
