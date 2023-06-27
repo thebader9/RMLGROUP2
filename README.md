@@ -107,14 +107,11 @@
   **Test data contains 19831 rows and 22 columns**
   <br>
   
-* **Model Details** 
-* . . 
+* **Model Details:** 
 
-
-Columns used as inputs in the final model: 'Mortgage', 'Balance', 'Amount Past Due', 'Delinquency Status', 'Credit Inquiry', 'Utilization'
-Column used as target in the final model: 'Status'
-Type of final model: GAMI-Net
-Software used to implement the models: Numpy, PiML, Python, XGBoost
+**Columns used as inputs: 'debt_to_income_ratio_std','debt_to_income_ratio_missing','income_std',      'loan_amount_ std', 'intro_rate_period_std', 'loan_to_value_ratio_std','no_intro_rate_period_std',          'property_value_std','term_360''conforming'**
+**Column used as target variable in the model: 'High-priced mortagage'** 
+**Software used to implement the models: Numpy,matplotlib,Sklearn, PiML, Python, XGBoost,EBM**
 Version of the modeling software:
 Numpy version: 1.23.5
 PiML version: 4.3
