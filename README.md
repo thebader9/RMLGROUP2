@@ -103,12 +103,32 @@
    <br>
   **hmda test preprocessed.zip – https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
   <br>
+  **Training data contains 160338 rows and 23 columns**
+  **Test data contains 19831 rows and 22 columns**
+  <br>
   
 * **Model Details** 
-* Training data contains 160338 rows and 23 columns. Test data contains 19831 rows and 22 columns. 
+* . . 
 
 
-
+Columns used as inputs in the final model: 'Mortgage', 'Balance', 'Amount Past Due', 'Delinquency Status', 'Credit Inquiry', 'Utilization'
+Column used as target in the final model: 'Status'
+Type of final model: GAMI-Net
+Software used to implement the models: Numpy, PiML, Python, XGBoost
+Version of the modeling software:
+Numpy version: 1.23.5
+PiML version: 4.3
+Python version: 3.9.16
+XGBoost version: 1.7.2
+Hyperparameters or other settings of the final model:
+N_interactions: default 10
+Batch_size: default 1000
+Subnet1_size: Set to 5 (default 20)
+Subnet2_size: Set to 5 (default 20)
+Max_epochs: default 1000
+Learning_rates: default 1e-3, 1e-3, 1e-4
+Random_state: default 0
+Monotonic Settings: monotonic increasing ('Balance', 'Mortgage'), monotonic decreasing ('Amount Past Due', 'Credit Inquiry', 'Delinquency Status', 'Utilization')
 
 
 
