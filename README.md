@@ -95,8 +95,12 @@
 ## Basic Information
 
 * **Team Members**:
-
-* **Intended use**:The model card is developed for academic purpose.Any use beyond an educational reference is out-of-scope. 
+* **Model date:** June,2023
+* **Model Version:** 1
+* **License:** Apache 2.0
+  
+## Intended use
+The model card is developed for academic purpose.Any use beyond an educational reference is out-of-scope. 
 * **Training & Evaluation data**:The Home Mortgage Disclosure Act (HMDA) dataset is used for the study.The unlabeled test dataset is used to score our  models and scores are submitted as part of assignment deliverable.
    <br>
  **hmda train preprocessed.zip – https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
