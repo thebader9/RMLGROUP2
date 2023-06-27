@@ -144,9 +144,11 @@
 
 
 
-
-
-
+## Evaluation  dataset
+* **The Home Mortgage Disclosure Act (HMDA) dataset is used for the study.** 
+  **hmda test preprocessed.zip – https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
+* **Test data contains 19831 rows and 22 columns**
+* **Test data is unlabeled and does not include 'high_priced_mortagage' target variable.**
 
    
  
@@ -158,10 +160,10 @@
   
   
   
-  **hmda test preprocessed.zip – https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
+
   <br>
   
-  **Test data contains 19831 rows and 22 columns**
+ 
   <br>
   
 * **Model Details:** 
