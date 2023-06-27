@@ -130,8 +130,8 @@
  |no_intro_rate_period_std    |Input   |Binary numeric  |
  |property_value_std          |Input   |Numeric         |
  |term_360                    |Input   |Binary numeric  |
- |conforming                  |Input   |Binary numeric  |whether the mortgage conforms to normal standards (1), 
-                                                          or whether the loan is different (0)
+ |conforming                  |Input   |Binary numeric  |whether the mortgage conforms to normal standards |
+ |                            |        |                | (1),or whether the loan is different (0)         |
  |high_priced_mortgage        |Target  |Binary          |
 
 
