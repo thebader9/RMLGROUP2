@@ -119,8 +119,8 @@
 
 | Name                      |Modeling| Data | Description |       
 |                           |  Role  | Type |             |                      
-|---------------------------|-------|-------|-------------
-| Actual                   |  1     | 0     |
+|
+|                 
 | **Predicted: 1**          | 470   | 911   |
 | **Predicted: 0**          | 194  | 1617  |
 |Confusion Matrix(Asian=1)|       |       |
