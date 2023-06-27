@@ -131,7 +131,7 @@
  |                            |        |                |      property for mortgage applicants.               |     |no_intro_rate_period_std    |Input   |Binary numeric  |Whether or not a mortgage does not include an      |
  |                            |        |                |    introductory rate period.                       |
  |property_value_std          |Input   |Numeric         |Value of the mortgaged property.                   |
- |term_360                    |Input   |Binary numeric  |whether the mortgage is a standard 360 month        |
+ |term_360                    |Input   |Binary numeric  |Whether the mortgage is a standard 360 month        |
  |                            |        |                |    mortgage (1) or a different type of mortgage (0).|
  |conforming                  |Input   |Binary numeric  |Whether the mortgage conforms to normal standards   |
  |                            |        |                | (1),or whether the loan is different (0)           |
@@ -149,6 +149,15 @@
 
 
    
+ 
+  
+  
+  
+  
+  
+  
+  
+  
   **hmda test preprocessed.zip – https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
   <br>
   
