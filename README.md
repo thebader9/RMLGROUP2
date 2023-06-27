@@ -131,12 +131,12 @@
                                                             property for mortgage applicants.               |        |no_intro_rate_period_std    |Input |Binary numeric    |Whether or not a mortgage does not include an 
                                                             introductory rate period.                       |
  |property_value_std          |Input   |Numeric         |Value of the mortgaged property.                   |
- |term_360                    |Input   |Binary numeric  |whether the mortgage is a standard 360 month 
+ |term_360                    |Input   |Binary numeric  |whether the mortgage is a standard 360 month |
                                                          mortgage (1) or a different type of mortgage (0).|
  |conforming                  |Input   |Binary numeric  |Whether the mortgage conforms to normal standards |
  |                            |        |                | (1),or whether the loan is different (0)         |
  |high_priced_mortgage        |Target  |Binary          |Whether (1) or not (0) the annual APR charged for 
- |                            |        |                |a mortgage is 150 basis points or more above a    
+ |                            |        |                |a mortgage is 150 basis points or more above a |   
  |                            |        |                | survey-based estimate of similar mortgages.      |
 
 
