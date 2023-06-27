@@ -106,7 +106,7 @@
   
 * **Model Details**
   <br>
-*Training data contains 160338 rows and 23 columns. Test data contains 19831 rows and 22 columns. 
+* Training data contains 160338 rows and 23 columns. Test data contains 19831 rows and 22 columns. 
 
 
 
