@@ -111,12 +111,52 @@
 
 ## Training  dataset
 
-* **The Home Mortgage Disclosure Act (HMDA) dataset is used for the study.hmda train preprocessed.zip – https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
+* **The Home Mortgage Disclosure Act (HMDA) dataset is used for the study.                                            HMDA train preprocessed.zip – https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
+* **Training data contains 160338 rows and 23 columns**
+*  **Training data was randomly split into training and testing data: 70% training and 30% testing.**
 
-   <br>
+**Data Dictionary:**
+
+| Name                      |Modeling| Data | Description |       
+|                           |  Role  | Type |             |                      
+|---------------------------|-------|-------|-------------
+| Actual                   |  1     | 0     |
+| **Predicted: 1**          | 470   | 911   |
+| **Predicted: 0**          | 194  | 1617  |
+|Confusion Matrix(Asian=1)|       |       |
+|    *Actual                |   1    | 0     |
+| **Predicted: 1**          | 95    | 176   |
+| **Predicted: 0**          | 53    |2926   |    
+| Confusion Matrix (White=1)|       |       |
+|  Actual                  |   1     | 0     |
+| **Predicted: 1**          |  1965 | 6117  |
+| **Predicted: 0**          | 1200  | 25243  |
+| Confusion Matrix (Male=1)  |       |       |
+|  Actual                  |   1     | 0     |
+| **Predicted: 1**          | 1036  | 3122   |
+| **Predicted: 0**          | 628   | 11046 |
+| Confusion Matrix (Female=1)|       |       |
+|   Actual                 |   1     | 0     |
+| **Predicted: 1**          | 847   | 2175  |
+| **Predicted: 0**          | 393   | 6617  |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
   **hmda test preprocessed.zip – https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
   <br>
-  **Training data contains 160338 rows and 23 columns**
+  
   **Test data contains 19831 rows and 22 columns**
   <br>
   
