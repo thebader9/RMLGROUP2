@@ -134,7 +134,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 
 -------------------------------------------------------------------------------------------------------------------
 
-# Assignment 6
+#  Model Card For Best Remediated Model
 
 ## Basic Information
 
@@ -142,7 +142,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 * **Model date:** June,2023
 * **Model Version:** 1
 * **License:** Apache 2.0
-* **Model implementation code:** ipynb file
+* **Model implementation code:** .ipynb file
 
   
 ## Intended use
