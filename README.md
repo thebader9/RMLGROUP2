@@ -146,6 +146,21 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
  |income_std                  |Input   |Numeric         |Standardized income for mortgage applicants.     |  
  |loan_amount_ std            |Input   |Numeric         |Standardized amount of the mortgage for applicants|        
  |intro_rate_period_std       |Input   |Numeric         |Standardized introductory rate period <br>for mortgage      |                                                         applicants.                                      |
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  |loan_to_value_ratio_std     |Input   |Numeric         |Ratio of the mortgage size to the value of <br> the    
  |                                                         property for mortgage applicants.                |        |no_intro_rate_period_std    |Input   |Binary numeric   |Whether or not a mortgage does not include an <br>      
  |                                                         introductory rate period.                       |
