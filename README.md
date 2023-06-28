@@ -142,7 +142,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 * **Model date:** June,2023
 * **Model Version:** 1
 * **License:** Apache 2.0
-* **Model implementation code:** .ipynb file
+
 
   
 ## Intended use
@@ -194,8 +194,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
  
  <br>
  
- 
- <div align="left">
+  <div align="left">
   
 ## Evaluation  dataset
 * **The Home Mortgage Disclosure Act (HMDA) dataset is used for the study.
@@ -209,23 +208,31 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
  ## Model Details
 **Columns used as inputs: 'debt_to_income_ratio_std','debt_to_income_ratio_missing','income_std',      'loan_amount_ std', 'intro_rate_period_std', 'loan_to_value_ratio_std','no_intro_rate_period_std',          'property_value_std','term_360''conforming'**
 **Column used as target variable in the model: 'High-priced mortagage'** 
-**Software used to implement the models: Numpy,matplotlib,Sklearn, PiML, Python, XGBoost,EBM**
-Version of the modeling software:
-Numpy version: 1.23.5
-PiML version: 4.3
-Python version: 3.9.16
-XGBoost version: 1.7.2
+**Software and version of the modeling software used to implement the models:** 
+Python 3.6.9
+h2o==3.32.1.3
+interpret==0.2.4
+jupyter==1.0.0 
+matplotlib==3.3.4
+numpy==1.19.5
+pandas==1.1.5
+scikit-learn==0.24.2
+seaborn==0.11.1
+xgboost==1.4.2
 
-Hyperparameters or other settings of the final model:
-N_interactions: default 10
-Batch_size: default 1000
-Subnet1_size: Set to 5 (default 20)
-Subnet2_size: Set to 5 (default 20)
-Max_epochs: default 1000
-Learning_rates: default 1e-3, 1e-3, 1e-4
-Random_state: default 0
-Monotonic Settings: monotonic increasing ('Balance', 'Mortgage'), monotonic decreasing ('Amount Past Due', 'Credit Inquiry', 'Delinquency Status', 'Utilization')
-
+* **Hyperparameters or other settings of the final model:**
+rem_params = max_bins: 256
+             max_interaction_bins: 64
+             interactions: 15
+             outer_bags: 12
+             inner_bags: 0
+             learning_rate: 0.01
+             validation_size: 0.5
+             min_samples_leaf: 2
+             max_leaves: 5
+             early_stopping_rounds: 100.0
+             n_jobs: 4
+             random_state: 12345
 
 
 
