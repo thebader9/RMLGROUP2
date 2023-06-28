@@ -147,7 +147,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
  |debt_to_income_ratio_missing|Input| Binary numeric| Missing marker (1) for debt to income ratio std  | 
  |loan_amount_ std |Input   |Numeric|Standardized amount of the mortgage for applicants| 
  |intro_rate_period_std |Input |Numeric |Standardized introductory rate period <br>for mortgage applicants|  
-  
+ |loan_to_value_ratio_st|Input   |Numeric|Ratio of the mortgage size to the value of <br> the property for mortgage    applicants.| 
   
   
   
@@ -160,8 +160,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 
  
                  
-      |                                                         applicants.                                      |
-
+                                                               
  
  
  
@@ -176,8 +175,8 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
  
  
  
- |loan_to_value_ratio_std     |Input   |Numeric         |Ratio of the mortgage size to the value of <br> the    
- |                                                         property for mortgage applicants.                |        |no_intro_rate_period_std    |Input   |Binary numeric   |Whether or not a mortgage does not include an <br>      
+ |    
+ |                                                                        |        |no_intro_rate_period_std    |Input   |Binary numeric   |Whether or not a mortgage does not include an <br>      
  |                                                         introductory rate period.                       |
  |property_value_std          |Input   |Numeric         |Value of the mortgaged property.                   |
  |term_360                    |Input   |Binary numeric  |Whether the mortgage is a standard 360 month        |
