@@ -142,12 +142,10 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
  | Name                      | Modeling| Data           | Description                                    |       
  |:--------------------------:|:------:|:--------------:|:---------------------------------------------: |                          
  |debt_to_income_ratio_std    |Input   |Numeric         |Standardized debt-to-income ratio<br>for mortgage
-                                                          applicants.|
- |                                                                                           |
- |debt_to_income_ratio_missing|Input   |Binary numeric  |Missing marker (1) for debt to income ratio std  |
+                                                          applicants.|                                              |debt_to_income_ratio_missing|Input   |Binary numeric  |Missing marker (1) for debt to income ratio std  |
  |income_std                  |Input   |Numeric         |Standardized income for mortgage applicants.     |  
  |loan_amount_ std            |Input   |Numeric         |Standardized amount of the mortgage for applicants|        
- |intro_rate_period_std       |Input   |Numeric         |Standardized introductory rate period for mortgage          |                            |        |                |   <sub>  applicants. <sub>                                 |
+ |intro_rate_period_std       |Input   |Numeric         |Standardized introductory rate period <br>for mortgage      |                                                         applicants.                                      |
  |loan_to_value_ratio_std     |Input   |Numeric         |Ratio of the mortgage size to the value of the     |
  |                            |        |                |      property for mortgage applicants.             |     |no_intro_rate_period_std    |Input   |Binary numeric   |Whether or not a mortgage does not include an      |
  |                            |        |                |    introductory rate period.                       |
