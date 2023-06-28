@@ -153,14 +153,17 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 |term_360|Input   |Binary numeric  | Whether the mortgage is a standard or  360 month | 
 |conforming|Input   |Binary numeric  |Whether the mortgage conforms to normal standards   |  
 |high_priced_mortgage |Target  |Binary|Whether (1) or not (0) the annual APR charged <br> for a mortgage is 150   basis points or more above a <br> survey-based estimate of similar mortgages| 
-|agegte62 |Demographic |Numeric     |Represent age of borrower                               
-  
- 
-
-
- 
-                 
-                                                               
+|agegte62 |Demographic <br> information |Numeric     |Represent age in years|                               
+|agelt62 |Demographic <br> information | Numeric     |Represent age in years|   
+|female |Demographic <br> information | Numeric |Gender of borrower|       
+|male |Demographic <br> information | Numeric |Gender of borrower|    
+|Non-hispanic|Demographic <br> information |categorical |Race of borrower|  
+|Hispanic|Demographic <br> information |categorical |Race of borrower|   
+|Hipac|Demographic <br> information |categorical |Race of borrower|                  
+|Amind|Demographic <br> information |categorical |Race of borrower|                                                 |White|Demographic <br> information |categorical |Race of borrower|
+|Asian|Demographic <br> information |categorical |Race of borrower|
+|Black|Demographic <br> information |categorical |Race of borrower|
+|Row id| ID|numeric|unique row identifier|            
  
  
  
@@ -178,23 +181,15 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
       
 
 
-|    mortgage (1) or a different type of mortgage (0).|
- 
-(1),or whether the loan is different (0)           |
+  
 
 
  
-                        |
- |                            |information|             |                                                    |
- | agelt62                    |Demographic|Numeric      |
- |                             information              |                |                                   |       |Female                      |demographic 
- |                            | information |                                                  
-|||
- | Male                       |
- |Non-hispanic
- |Hispanic
- |Hipac
- |Amind
+                       
+
+
+ 
+ 
  |White
  |Asian
  |Black
