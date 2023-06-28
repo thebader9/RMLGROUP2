@@ -31,7 +31,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
  |Remediated EBM on training data |0.7801|
  |Remediated EBM true validation data |0.7861|
  
-* As a comparison exercise and to further improve the model, we ran the validation dataset on PiML Library
+* As a comparison exercise and to further improve the model, we ran the validation dataset on PiML Library:
 
 #### Retraining best model(EBM) on PiML 
  | Train                      |  Test     | 
