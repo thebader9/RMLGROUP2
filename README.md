@@ -140,8 +140,9 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
  <div align="center">
  
    
-  | Name                      |  Modeling        | Data           | Description                                   |  
+ | Name                      |  Modeling     | Data            | Description                                   |  
  |:-------------------------:|:--------------:|:--------------:|:---------------------------------------------: |   
+ |debt_to_income_ratio_std |Input|Numeric|Standardized debt-to-income ratio<br>for mortgage applicants|
   
   
   
@@ -152,8 +153,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
   
   
   
-  
-  |debt_to_income_ratio_std    |Input   |Numeric         |Standardized debt-to-income ratio<br>for mortgage                                                                               applicants                         |                                                                
+  |   |Input   |         |                                                                                                        |                                                                
 |  ||
  
   
