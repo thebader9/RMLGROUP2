@@ -157,13 +157,13 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 |agelt62 |Demographic <br> information | Numeric     |Represent age in years|   
 |female |Demographic <br> information | Numeric |Gender of borrower|       
 |male |Demographic <br> information | Numeric |Gender of borrower|    
-|Non-hispanic|Demographic <br> information |categorical |Race of borrower|  
-|Hispanic|Demographic <br> information |categorical |Race of borrower|   
-|Hipac|Demographic <br> information |categorical |Race of borrower|                  
-|Amind|Demographic <br> information |categorical |Race of borrower|                                                 |White|Demographic <br> information |categorical |Race of borrower|
-|Asian|Demographic <br> information |categorical |Race of borrower|
-|Black|Demographic <br> information |categorical |Race of borrower|
-|Row id| ID|numeric|unique row identifier|            
+|non-hispanic|Demographic <br> information |categorical |Race of borrower|  
+|hispanic|Demographic <br> information |categorical |Race of borrower|   
+|hipac|Demographic <br> information |categorical |Race of borrower|                  
+|amind|Demographic <br> information |categorical |Race of borrower|                                                 |white|Demographic <br> information |categorical |Race of borrower|
+|asian|Demographic <br> information |categorical |Race of borrower|
+|black|Demographic <br> information |categorical |Race of borrower|
+|row id| ID|numeric|Unique row identifier|            
  
  
  
