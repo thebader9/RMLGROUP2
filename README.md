@@ -25,15 +25,15 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 * Find outliers, then remove worst Outliers
 * Down-sample to Increase Signal from High-priced Loans
 
-#### Retraining best model(EBM) after removing outliers and handling data impbalance (h2o library)
+#### Retraining best model(EBM) after removing outliers and handling data imbalance 
  | Model                      |  AUC     | 
  |:-------------------------:|:--------------:|   
  |Remediated EBM on training data |0.7801|
  |Remediated EBM true validation data |0.7861|
  
-* As a comparison exercise and to further improve the model, we ran the validation dataset on PiML Library:
+* **As a comparison exercise and to further improve the model, we ran the validation dataset on PiML Library:**
 
-#### Retraining best model(EBM) on PiML 
+#### Retraining best model(EBM) using PiML 
  | Train                      |  Test     | 
  |:-------------------------:|:--------------:|   
  |0.8257	 |0.8265|
