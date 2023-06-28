@@ -118,14 +118,14 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 * **Model date:** June,2023
 * **Model Version:** 1
 * **License:** Apache 2.0
+* **Model implementation code:** ipynb file
 
-* **Case Background:** High-priced mortgages are legal, but punitive to borrowers. High-priced mortgages often fall on the shoulders of minority home owners, and are one of many issues that leads to a massive disparity in overall wealth between different demographic groups in the USA.We tried to test our best performing explainable ML model across major demographic groups for discriminatory outcomes using Adverse impact ratio (AIR),to include Asian,Black and White people and also males and females.
   
 ## Intended use
 
-* **Primary business value:** To ensure customers gets fair priced mortgage across all socio-demographic group.The model will help the lenders to make informed decision and retain customers for a long time.
-* **Primary intended uses:** The remediated model is an example of an end-to-end credit modeling process that is intended to be used as a guide for finding a less discriminatory model in deciding 'high priced mortgage'by lenders.
-* **Primary intended users:** Researchers and Students
+* **Primary business value:** To ensure customers gets fair priced mortgage across all socio-demographic group.The model will help to make informed decision and retain customers for a long time.
+* **Primary intended uses:** The model is an example use case of bias testing across major demographic groups for discriminatory out-comes using adverse impact ratio (AIR) and is intended to be used as a guide for finding a less discriminatory model using remediation technique to address massive disparity, wherein high priced mortgage usually falls on the shoulders of minority home owners .
+* **Primary intended users:** Students
 * **Out-of-scope use cases:**  Any use beyond educational reference is out-of-scope.
 
 
@@ -148,7 +148,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
  |loan_amount_ std            |Input   |Numeric         |Standardized amount of the mortgage for applicants|        
  |intro_rate_period_std       |Input   |Numeric         |Standardized introductory rate period for mortgage          |                            |        |                |     applicants.                                   |
  |loan_to_value_ratio_std     |Input   |Numeric         |Ratio of the mortgage size to the value of the     |
- |                            |        |                |      property for mortgage applicants.               |     |no_intro_rate_period_std    |Input   |Binary numeric  |Whether or not a mortgage does not include an      |
+ |                            |        |                |      property for mortgage applicants.             |     |no_intro_rate_period_std    |Input   |Binary numeric   |Whether or not a mortgage does not include an      |
  |                            |        |                |    introductory rate period.                       |
  |property_value_std          |Input   |Numeric         |Value of the mortgaged property.                   |
  |term_360                    |Input   |Binary numeric  |Whether the mortgage is a standard 360 month        |
@@ -158,11 +158,22 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
  |high_priced_mortgage        |Target  |Binary          |Whether (1) or not (0) the annual APR charged for 
  |                            |        |                |a mortgage is 150 basis points or more above a      |      
  |                            |        |                | survey-based estimate of similar mortgages.        |
-
-
-
-
-
+ |agegte62                    |Demographic |Numeric     |Represent age of borrower                           |
+ |                            |information|             |                                                    |
+ | agelt62                    |Demographic|Numeric      |
+ |                             information              |                |                                   |       |Female                      |demographic 
+ |                            | information |                                                  
+|||
+ | Male                       |
+ |Non-hispanic
+ |Hispanic
+ |Hipac
+ |Amind
+ |White
+ |Asian
+ |Black
+ |Row id
+ 
 <div align="left">
   
 ## Evaluation  dataset
