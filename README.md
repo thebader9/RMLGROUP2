@@ -151,7 +151,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 |no_intro_rate_period_std |Input|Binary numeric | Whether or not a mortgage does not include an <br>  introductory rate period.| 
 | property_value_std |Input   |Numeric  |Value of the mortgaged property.| 
 |term_360|Input   |Binary numeric  | Whether the mortgage is a standard or  360 month | 
-|conforming|Input   |Binary numeric  |Whether the mortgage conforms to normal standards   |  
+|conforming|Input   |Binary numeric  |Whether the mortgage conforms to normal standards  |  
 |high_priced_mortgage |Target  |Binary|Whether (1) or not (0) the annual APR charged <br> for a mortgage is 150   basis points or more above a <br> survey-based estimate of similar mortgages| 
 |agegte62 |Demographic <br> information |Numeric     |Represent age in years|                               
 |agelt62 |Demographic <br> information | Numeric     |Represent age in years|   
@@ -160,7 +160,8 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 |non-hispanic|Demographic <br> information |categorical |Race of borrower|  
 |hispanic|Demographic <br> information |categorical |Race of borrower|   
 |hipac|Demographic <br> information |categorical |Race of borrower|                  
-|amind|Demographic <br> information |categorical |Race of borrower|                                                 |white|Demographic <br> information |categorical |Race of borrower|
+|amind|Demographic <br> information |categorical |Race of borrower|                                                 
+|white|Demographic <br> information |categorical |Race of borrower|
 |asian|Demographic <br> information |categorical |Race of borrower|
 |black|Demographic <br> information |categorical |Race of borrower|
 |row id| ID|numeric|Unique row identifier|            
@@ -168,34 +169,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
  
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-      
-
-
-  
-
-
- 
-                       
-
-
- 
- 
- |White
- |Asian
- |Black
- |Row id
- 
-<div align="left">
+ <div align="left">
   
 ## Evaluation  dataset
 * **The Home Mortgage Disclosure Act (HMDA) dataset is used for the study.
