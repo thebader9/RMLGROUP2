@@ -138,10 +138,10 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 **Data Dictionary:**
 
  <div align="center">
+ 
    
   | Name                      |  Modeling        | Data           | Description                                   |  
-  
-  |:-------------------------:|:--------------:|:--------------:|:---------------------------------------------: |   
+ |:-------------------------:|:--------------:|:--------------:|:---------------------------------------------: |   
   
   
   
