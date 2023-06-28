@@ -132,7 +132,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 ## Training  dataset
 
 * **The Home Mortgage Disclosure Act (HMDA) dataset is used for the study.                                            HMDA train preprocessed.zip – https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
-*  **Training data was randomly split into training and testing data: 70% training and 30% testing.**
+*  **Training data was randomly split into training and validation data: 70% training and 30% validation.**
 *  **Training data contains 112253 rows and 23 columns and Validation data contains 48085 rows and 23 columns**
 
 **Data Dictionary:**
@@ -167,6 +167,8 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 |row id| ID|numeric|Unique row identifier|            
  
  
+ 
+ <br>
  
  
  <div align="left">
