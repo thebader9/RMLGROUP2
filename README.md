@@ -159,7 +159,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
  |high_priced_mortgage        |Target  |Binary          |Whether (1) or not (0) the annual APR charged for 
  |                            |        |                |a mortgage is 150 basis points or more above a      |      
  |                            |        |                | survey-based estimate of similar mortgages.        |
- |agegte62                    |Demographic |Numeric     |Represent age of borrower                           |
+ |agegte62                    |Demographic information |Numeric     |Represent age of borrower                           |
  |                            |information|             |                                                    |
  | agelt62                    |Demographic|Numeric      |
  |                             information              |                |                                   |       |Female                      |demographic 
