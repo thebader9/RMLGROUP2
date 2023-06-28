@@ -147,7 +147,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
  |debt_to_income_ratio_missing|Input   |Binary numeric  |Missing marker (1) for debt to income ratio std  |
  |income_std                  |Input   |Numeric         |Standardized income for mortgage applicants.     |  
  |loan_amount_ std            |Input   |Numeric         |Standardized amount of the mortgage for applicants|        
- |intro_rate_period_std       |Input   |Numeric         |Standardized introductory rate period for mortgage          |                            |        |                |     applicants.                                   |
+ |intro_rate_period_std       |Input   |Numeric         |Standardized introductory rate period for mortgage          |                            |        |                |   <sub>  applicants. <sub>                                 |
  |loan_to_value_ratio_std     |Input   |Numeric         |Ratio of the mortgage size to the value of the     |
  |                            |        |                |      property for mortgage applicants.             |     |no_intro_rate_period_std    |Input   |Binary numeric   |Whether or not a mortgage does not include an      |
  |                            |        |                |    introductory rate period.                       |
@@ -159,7 +159,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
  |high_priced_mortgage        |Target  |Binary          |Whether (1) or not (0) the annual APR charged for 
  |                            |        |                |a mortgage is 150 basis points or more above a      |      
  |                            |        |                | survey-based estimate of similar mortgages.        |
- |agegte62                    |Demographic information |Numeric     |Represent age of borrower                           |
+ |agegte62                    |Demographic |Numeric     |Represent age of borrower                           |
  |                            |information|             |                                                    |
  | agelt62                    |Demographic|Numeric      |
  |                             information              |                |                                   |       |Female                      |demographic 
