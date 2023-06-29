@@ -271,7 +271,7 @@ rem_params = max_bins: 256 <br>
 
 <div align="center">
 
-<image src="https://github.com/thebader9/RMLGROUP2/assets/111473895/6f27cc96-2af4-4775-a4cc-54bf27d26548" alt="Image" width="500" height="510">
+<![image]"https://github.com/thebader9/RMLGROUP2/assets/111473895/0a8383c5-714d-4d24-8242-e1185f31924d" alt="Before Remediation" width="500" height="510">
 
  
 
