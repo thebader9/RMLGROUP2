@@ -287,7 +287,8 @@ rem_params = max_bins: 256 <br>
 
  <br>
  
-<img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/88ebd064-fd70-485b-b4ec-79a89e80f1b"
+ 
+<img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/d131a404-014b-4d44-abfb-8590e0cc76d8"
  width="500" height="510">
 
 
