@@ -300,13 +300,20 @@ rem_params = max_bins: 256 <br>
 
 <img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/448bc461-de9d-48b8-bd28-cdf2bdceeedb" width="500" height="510">
 
+
 <div align="center">
+<br>
+ 
+**AIR before remediation**
  
 <img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/1402ce73-b2c2-4194-a7af-26caa64591d4" width="500" height="510">
 
+<br>
 
+**AIR before remediation**
 
-<img  width="500" height="510">
+<img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/55051821-cfc3-4698-b8e3-157102798aac"
+ width="500" height="510">
 
 <img  width="500" height="510">
 
