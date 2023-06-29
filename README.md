@@ -218,29 +218,30 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 <br>
 * **Software and version of the modeling software used to implement the model:** 
 <br>
-Python 3.6.9<br>
-h2o 3.32.1.3<br>
-interpret 0.2.4<br>
-matplotlib 3.3.4 <br>
-numpy 1.19.5 <br>
-pandas 1.1.5 <br>
-scikit-learn 0.24.2 <br>
-seaborn 0.11.1 <br>
-PiML 4.3??<br>
+ Python 3.6.9<br>
+ h2o 3.32.1.3<br>
+ interpret 0.2.4<br>
+ matplotlib 3.3.4 <br>
+ numpy 1.19.5 <br>
+ pandas 1.1.5 <br>
+ scikit-learn 0.24.2 <br>
+ seaborn 0.11.1 <br>
+ PiML 4.3??<br>
   
 * **Hyperparameters or other settings of the final model:**
-rem_params = max_bins: 256
-             max_interaction_bins: 64
-             interactions: 15
-             outer_bags: 12
-             inner_bags: 0
-             learning_rate: 0.01
-             validation_size: 0.5
-             min_samples_leaf: 2
-             max_leaves: 5
-             early_stopping_rounds: 100.0
-             n_jobs: 4
-             random_state: 12345
+  <br>
+rem_params = max_bins: 256 <br> 
+             max_interaction_bins: 64 <br> 
+             interactions: 15 <br> 
+             outer_bags: 12 <br> 
+             inner_bags: 0 <br> 
+             learning_rate: 0.01 <br> 
+             validation_size: 0.5 <br> 
+             min_samples_leaf: 2 <br> 
+             max_leaves: 5 <br> 
+             early_stopping_rounds: 100.0 <br> 
+             n_jobs: 4 <br> 
+             random_state: 12345 <br> 
 
 
 
