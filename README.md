@@ -253,9 +253,8 @@ rem_params = max_bins: 256 <br>
   <br>
 
 
- |Train AUC | Validation AUC | Test AUC  |
- 
- |:--------:|: ------------ : | :---------: |   
+ | Train AUC | Validation AUC  |  Test AUC    |
+ |:---------:|: ------------ : | :---------: |   
  |0.7801|0.7861|0.830|
  
 
