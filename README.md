@@ -362,9 +362,11 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 
 
 
-<img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/7dc1a04d-9584-4698-ae50-e1687cc196fb" width="550" height="300">
 
 * **Ethical Consideration:**
+*While the model demonstrates satisfactory performance, its applicability to mortgage lending reveals may still have underlying racial bias. Merely achieving a fairness score and ensuring a minimum score of 0.80 for protected groups, such as AIR, should not be considered a sufficient benchmark. This outcome implies that bias persists within the model, potentially leading to discriminatory home-mortgage lending for those protected groups.
+*Moreover, the model's evaluation of bias is overly simplistic and fails to account for intersectional protected groups. It solely relies on confusion matrices and subsequent AIR scores that pertain to individual identity groups. This limitation restricts the evaluation to race or gender in isolation, disregarding the compounded impact of factors such as race, gender, sexuality, religion, socioeconomic status, ability,etc. 
+*The potential for improving the model's effectiveness through software modifications remains uncertain. Exploring alternative software options could yield different outcomes and decision nodes within the generated model. However, this would necessitate additional testing or using the alternative software.
 
 
 
