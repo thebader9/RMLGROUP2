@@ -266,7 +266,9 @@ rem_params = max_bins: 256 <br>
 
 <div align="left">
  
-*Test AUC taken from:https://github.com/jphall663/GWU_rml/blob/master/assignments/model_eval_2023_06_28_21_00_17.csv
+*Test AUC taken from:https://github.com/jphall663/GWU_rml/blob/master/assignments/model_eval_2023_06_28_21_00_17.csv 
+<br>
+
 *Train AUC and Validation AUC values from remediation EBM (after removing outliers).
 
 
@@ -322,30 +324,8 @@ rem_params = max_bins: 256 <br>
 
 <img  width="500" height="510">
 
-
-
-
-
-<img  width="500" height="510">
-
-<img  width="500" height="510">
-
-
-<img  width="500" height="510">
-
-
-<div align="left">
-
-
-
-
-
-
-
-
-
  
-* **Address other alternative models considered**
+* **Address other alternative models considered:** 
 
 
 
