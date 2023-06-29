@@ -219,8 +219,8 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
   
 <br>
 
- Python:3.6.9<br>
- h2o:3.32.1.3<br>
+ Python: 3.6.9<br>
+ h2o: 3.32.1.3<br>
  interpret: 0.2.4<br>
  matplotlib: 3.3.4 <br>
  numpy: 1.19.5 <br>
@@ -230,18 +230,18 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
  
  * **Hyperparameters or other settings of the final model:**
   <br>
-rem_params = max_bins: 256 <br> 
-             max_interaction_bins: 64 <br> 
-             interactions: 15 <br> 
-             outer_bags: 12 <br> 
-             inner_bags: 0 <br> 
-             learning_rate: 0.01 <br> 
-             validation_size: 0.5 <br> 
-             min_samples_leaf: 2 <br> 
-             max_leaves: 5 <br> 
-             early_stopping_rounds: 100.0 <br> 
-             n_jobs: 4 <br> 
-             random_state: 12345 <br> 
+       rem_params = max_bins: 256 <br> 
+                    max_interaction_bins: 64 <br> 
+                    interactions: 15 <br> 
+                    outer_bags: 12 <br> 
+                    inner_bags: 0 <br> 
+                    learning_rate: 0.01 <br> 
+                    validation_size: 0.5 <br> 
+                    min_samples_leaf: 2 <br> 
+                    max_leaves: 5 <br> 
+                    early_stopping_rounds: 100.0 <br> 
+                    n_jobs: 4 <br> 
+                    random_state: 12345 <br> 
 
 
 
@@ -290,24 +290,36 @@ rem_params = max_bins: 256 <br>
 
  <br>
  
- 
+ * **Partial Dependence Plot (PDP): used to understand how the prediction varies as a function of variables of interest, by averaging over other variables.Not recommended if the features are correlated.**
+    <br>
+    
 <img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/d131a404-014b-4d44-abfb-8590e0cc76d8"
  width="450" height="510">
+ <br>
+* **There is a negative relationship between ‘mortgage is high priced’ and ‘Property_value_std’. As Property_value_std’ increases, the probability of that individual’s mortgage to be ‘high priced’ decreases.**     
 
 
 <img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/a09e45e1-749d-47ce-bdae-a4609b223953"
  width="450" height="510">
+ 
+ <br>
+ 
+ * **There is a negative. relationship between ‘mortgage is high priced’ and ‘Debt_to_income_ratio_std’ when the value is less than 1. As ‘Debt_to_income_ratio_std’  increases, the probability of that individual’s mortgage to be ‘high priced’ increases, up until the ratio is at around 1, then the relationship is positive .**
 
 <div align="center">
 
 <img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/c7a09d63-7ba2-409d-acee-1a1b536cf64f"
  width="450" height="510">
-
+ <br>
+ * **There is a Positive relationship between ‘mortgage is high priced’ and ‘Income_st:’. As ‘Income_std’ increases, the probability of that individual’s mortgage to be ‘high priced’  increases. In both PDP and ALE.**
+ 
 
 <div align="center">
 <img src ="https://github.com/thebader9/RMLGROUP2/assets/111473895/1246d32e-ae64-4bcf-89aa-0db7ffc67f8a" width="450" height="510">
 
  <br>
+ 
+ * **The PDP graph indicates that having a standard 360 month mortgage (1) is associated with a slightly higher likelihood of a high-priced mortgage, while the ALE graph shows that having a standard 360 month mortgage (1) does not strongly influence the probability of a high-priced mortgage.**
  
 **'AIR' before remediation**
  
@@ -316,17 +328,32 @@ rem_params = max_bins: 256 <br>
 
 <br>
 
+* **Basic Assesment:As mentioned above the 'Area under curve is 0.8253.The reference group for the above 'Adverse impact ratio' graph is "White" for race and "Male" for gender.The  adverse impact ratio for group 'black' is 0.741 and 'female' is O.948.Generally,an adverse impact ratio below 1.0 (or 100%) indicates that the protected group is likely to get 'high priced mortagage' compared to the reference group, suggesting potential adverse impact or disparities that may require further investigation to ensure fair and unbiased practices.Next we try to increase the 'AIR'values for the protected group using remediation techniques.**
+  
 
 **'AIR' after remediation**
 
 <img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/55051821-cfc3-4698-b8e3-157102798aac"
  width="520" height="510">
+<br>
 
-<img  width="500" height="510">
+**The best AUC achieved was 0.7809, after remediation and the AIR (Adverse Impact Ratio) for the 'black' got better at 0.807 from 0.741 recorded in basic assesment.**
+
 
  
 * **Address other alternative models considered:** 
 
+<Br>
+
+<div align="center">
+
+### Model Performance
+
+<div align="center">
+<Br>
+ | Model         | Test AUC   | Test ACC |Test F1 | Train AUC|Train ACC|Train F1| 
+ |:-------------:|:--------- :|:--------:|:------:| :-------:| :-------:|:------:| 
+ |EBM|
 
 
 
@@ -334,11 +361,7 @@ rem_params = max_bins: 256 <br>
 
 
 
-
-
-
-
-
+* **Ethical Consideration:**
 
 
 
