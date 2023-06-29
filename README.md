@@ -208,26 +208,26 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
  ## Model Details
  <br>
  
-**Columns used as inputs:** 'debt_to_income_ratio_std','debt_to_income_ratio_missing','income_std',      'loan_amount_ std', 'intro_rate_period_std', 'loan_to_value_ratio_std','no_intro_rate_period_std',          'property_value_std','term_360''conforming'
+* **Columns used as inputs:** 'debt_to_income_ratio_std','debt_to_income_ratio_missing','income_std',      'loan_amount_ std', 'intro_rate_period_std', 'loan_to_value_ratio_std','no_intro_rate_period_std',          'property_value_std','term_360''conforming'??????
 <br>
 
-**Column used as target variable in the model:** 'High-priced mortagage'
-
+* **Column used as target variable in the model:** 'High-priced mortagage'
 <br>
 
-**Software and version of the modeling software used to implement the models:** 
+ * **Type of best remediated model:** Explainable Boosting Machine (EBM) Classifier 
+<br>
+* **Software and version of the modeling software used to implement the model:** 
 <br>
 Python 3.6.9<br>
 h2o 3.32.1.3<br>
 interpret 0.2.4<br>
-jupyter 1.0.0 <br>
 matplotlib 3.3.4 <br>
 numpy 1.19.5 <br>
 pandas 1.1.5 <br>
 scikit-learn 0.24.2 <br>
 seaborn 0.11.1 <br>
-xgboost 1.4.2 <br>
-
+PiML 4.3??<br>
+  
 * **Hyperparameters or other settings of the final model:**
 rem_params = max_bins: 256
              max_interaction_bins: 64
@@ -244,7 +244,7 @@ rem_params = max_bins: 256
 
 
 
-
+## Quantitative Analysis
 
 
 
