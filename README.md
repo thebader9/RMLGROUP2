@@ -218,15 +218,15 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 **Software and version of the modeling software used to implement the models:** 
 <br>
 Python 3.6.9<br>
-h2o==3.32.1.3<br>
-interpret==0.2.4
-jupyter==1.0.0 
-matplotlib==3.3.4
-numpy==1.19.5
-pandas==1.1.5
-scikit-learn==0.24.2
-seaborn==0.11.1
-xgboost==1.4.2
+h2o 3.32.1.3<br>
+interpret 0.2.4<br>
+jupyter 1.0.0 <br>
+matplotlib 3.3.4 <br>
+numpy 1.19.5 <br>
+pandas 1.1.5 <br>
+scikit-learn 0.24.2 <br>
+seaborn 0.11.1 <br>
+xgboost 1.4.2 <br>
 
 * **Hyperparameters or other settings of the final model:**
 rem_params = max_bins: 256
