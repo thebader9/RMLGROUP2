@@ -175,7 +175,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 | property_value_std |Input   |Numeric  |Value of the mortgaged property.| 
 |term_360|Input   |Binary numeric  | Whether the mortgage is a standard or  360 month | 
 |conforming|Input   |Binary numeric  |Whether the mortgage conforms to normal standards  |  
-|high_priced_mortgage |Target  |Binary|Whether (1) or not (0) the annual APR charged <br> for a mortgage is 150   basis points or more above a <br> survey-based estimate of similar mortgages| 
+|high_priced |Target  |Binary|Whether (1) or not (0) the annual APR charged <br> for a mortgage is 150   basis points or more above a <br> survey-based estimate of similar mortgages| 
 |agegte62 |Demographic <br> information |Numeric     |Represent age in years|                               
 |agelt62 |Demographic <br> information | Numeric     |Represent age in years|   
 |female |Demographic <br> information | Numeric |Gender of borrower|       
@@ -199,7 +199,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 * **The Home Mortgage Disclosure Act (HMDA) dataset is used for the study.
      HMDA test preprocessed.zip – https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
 * **Test data contains 19831 rows and 22 columns**
-* **Test data is unlabeled and does not include 'high_priced_mortagage' target variable.**
+* **Test data is unlabeled and does not include 'high_priced' mortagage target variable.**
 
  <br>
  <br>
