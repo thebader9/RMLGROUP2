@@ -251,12 +251,16 @@ rem_params = max_bins: 256 <br>
 ## Quantitative Analysis
 * **The metrics used to evaluate best remediated model:** Models were assessed primarily with Area under the curve(AUC) and Adverse impact ratio (AIR).
   <br>
+ <div align="center">
 
+  
  | Train AUC | Validation AUC  |  Test AUC    |
  | :--------:|:---------------:|:------------:|
  |0.7801|0.7861|0.830*|
  
-
+ <br>
+ <div align="center">
+  
 |  Groups          | AIR |          
 | ---------------- | --- |
 | Asian vs White   | 1.151 |
@@ -264,8 +268,7 @@ rem_params = max_bins: 256 <br>
 | Females vs Males   | 0.958 |
 
 
-  <br>
-  (*Test AUC taken from https://github.com/jphall663/GWU_rml/blob/master/assignments/eval.ipynb)
+ (*Test AUC taken from https://github.com/jphall663/GWU_rml/blob/master/assignments/eval.ipynb)
 
 
 
