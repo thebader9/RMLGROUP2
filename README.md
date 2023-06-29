@@ -253,7 +253,7 @@ rem_params = max_bins: 256 <br>
   
  | Train AUC | Validation AUC  |  Test AUC    |
  | :--------:|:---------------:|:------------:|
- |0.7801|0.7861|0.830*|
+ |0.7801*|0.7861|0.830*|
  
  <br>
  <div align="center">
@@ -264,8 +264,11 @@ rem_params = max_bins: 256 <br>
 | Black vs White   | 0.807 |
 | Females vs Males   | 0.958 |
 
+<div align="left">
+ 
+*Test AUC taken from:https://github.com/jphall663/GWU_rml/blob/master/assignments/model_eval_2023_06_28_21_00_17.csv
+*Train AUC and Validation AUC values from remediation EBM (after removing outliers).
 
- (*Test AUC taken from https://github.com/jphall663/GWU_rml/blob/master/assignments/eval.ipynb)
 
 <br>
 
@@ -290,20 +293,21 @@ rem_params = max_bins: 256 <br>
  width="450" height="510">
 
 
-<img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/740a6af1-c0d5-48dd-ae64-fa2a21c86f95"
- width="550" height="510">
+<img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/a09e45e1-749d-47ce-bdae-a4609b223953"
+ width="450" height="510">
 
 <div align="center">
 
-
-<img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/448bc461-de9d-48b8-bd28-cdf2bdceeedb" width="500" height="510">
+<img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/c7a09d63-7ba2-409d-acee-1a1b536cf64f"
+ width="450" height="510">
 
 
 <div align="center">
+<img src ="https://github.com/thebader9/RMLGROUP2/assets/111473895/1246d32e-ae64-4bcf-89aa-0db7ffc67f8a" width="450" height="510">
 
  <br>
  
-**AIR before remediation**
+**'AIR' before remediation**
  
 <img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/1402ce73-b2c2-4194-a7af-26caa64591d4" width="520" height="510">
 
@@ -311,7 +315,7 @@ rem_params = max_bins: 256 <br>
 <br>
 
 
-**AIR after remediation**
+**'AIR' after remediation**
 
 <img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/55051821-cfc3-4698-b8e3-157102798aac"
  width="520" height="510">
