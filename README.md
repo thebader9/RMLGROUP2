@@ -354,8 +354,8 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
  <Br>
  
 
- | Model         | Test AUC   | Test ACC |Test F1 | Train AUC|Train ACC |Train F1| 
- |:-------------:|:--------- :|:--------:|:------:| :-------:| :-------:|:------:| 
+ | Model         | Test AUC   | Test ACC   |Test F1   | Train AUC |Train ACC  |Train F1  | 
+ | :-----------: | :--------: | :--------: | :------: | :-------: | :-------: | :------: | 
  |EBM|0.9045|0.8251|0.0250|0.9036|0.8277|0.0313|
  |ReLU-DNN|0.9044|0.8061|0.0108|0.9033|0.8050|0.0131|
  |XGB2|0.9043|0.8233|0.0158|0.9031|0.8252|0.0143|
