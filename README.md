@@ -271,7 +271,8 @@ rem_params = max_bins: 256 <br>
 
 <div align="center">
 
-<img  width="500" height="510">
+<image https://github.com/thebader9/RMLGROUP2/assets/111473895/60ad1e7b-ae38-4a15-bf86-e1c115072e17
+ width="500" height="510">
 
 
 
