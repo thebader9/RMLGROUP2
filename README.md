@@ -252,7 +252,8 @@ rem_params = max_bins: 256 <br>
 * **The metrics used to evaluate best remediated model:** Models were assessed primarily with Area under the curve(AUC) and Adverse impact ratio (AIR).
   <br>
 
- | Train AUC|Validation AUC | Test AUC | 
+
+ | Train AUC|Validation AUC | Test AUC  | 
  |:------- :|:------------ :|:---------:|   
  |0.7801|0.7861|0.830*|
  
