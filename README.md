@@ -146,7 +146,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
   
 ## Intended use
 
-* **Primary business value:** To ensure customers gets fair priced mortgage across all socio-demographic group.The model will help to make informed decision and retain customers for a long time.
+* **Primary business value:** To ensure customers gets fair priced mortgage across all socio-demographic group.The model is an example use case that will help to make informed decision and retain customers for a long time.
 * **Primary intended uses:** The model is an example use case of bias testing across major demographic groups for discriminatory out-comes using adverse impact ratio (AIR) and is intended to be used as a guide for finding a less discriminatory model using remediation technique to address massive disparity, wherein high priced mortgage usually falls on the shoulders of minority home owners .
 * **Primary intended users:** Students
 * **Out-of-scope use cases:**  Any use beyond educational reference is out-of-scope.
@@ -154,7 +154,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 
 ## Training  dataset
 
-* **The Home Mortgage Disclosure Act (HMDA) dataset is used for the study.                                            HMDA train preprocessed.zip – https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
+* **Source of Training dataset:Github - https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
 *  **Training data was randomly split into training and validation data: 70% training and 30% validation.**
 *  **Training data contains 112253 rows and 23 columns and Validation data contains 48085 rows and 23 columns**
 
@@ -196,8 +196,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
   <div align="left">
   
 ## Evaluation  dataset
-* **The Home Mortgage Disclosure Act (HMDA) dataset is used for the study.
-     HMDA test preprocessed.zip – https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
+* **Source of Test dataset:Github - https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
 * **Test data contains 19831 rows and 22 columns**
 * **Test data is unlabeled and does not include 'high_priced' mortagage target variable.**
 
@@ -220,17 +219,16 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
   
 <br>
 
- Python 3.6.9<br>
- h2o 3.32.1.3<br>
- interpret 0.2.4<br>
- matplotlib 3.3.4 <br>
- numpy 1.19.5 <br>
- pandas 1.1.5 <br>
- scikit-learn 0.24.2 <br>
- seaborn 0.11.1 <br>
- PiML 4.3??<br>
-  
-* **Hyperparameters or other settings of the final model:**
+ Python:3.6.9<br>
+ h2o:3.32.1.3<br>
+ interpret: 0.2.4<br>
+ matplotlib: 3.3.4 <br>
+ numpy: 1.19.5 <br>
+ pandas: 1.1.5 <br>
+ scikit-learn: 0.24.2 <br>
+ seaborn: 0.11.1 <br>
+ 
+ * **Hyperparameters or other settings of the final model:**
   <br>
 rem_params = max_bins: 256 <br> 
              max_interaction_bins: 64 <br> 
