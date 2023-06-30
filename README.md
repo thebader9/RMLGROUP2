@@ -155,7 +155,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 
 ## Training  dataset
 
-* **Source of Training dataset:Github - https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
+* **Source of Training dataset: Github - https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
 *  **Training data was randomly split into training and validation data: 70% training and 30% validation.**
 *  **Training data contains 112253 rows and 23 columns and Validation data contains 48085 rows and 23 columns**
 
@@ -196,9 +196,9 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
   <div align="left">
    
  ## Evaluation  dataset
-* **Source of Test dataset:Github - https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
+* **Source of Test dataset: Github - https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
 * **Test data contains 19831 rows and 22 columns**
-* **Test data is unlabeled and does not include 'high_priced' mortagage target variable.**
+* **Test data is unlabeled and does not include 'high_priced' mortgage target variable.**
 
  
  ## Model Details
@@ -307,7 +307,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
   
 * **PDP is used to understand how the prediction varies as a function of variables of interest, by averaging over other variables.Not recommended if the features are correlated.**
   
-* **As seen in the above graph there is a negative relationship between 'high priced’mortgage and ‘Property_value_std’. As Property_value_std’increases,the probability of that individual’s mortgage to be ‘high priced’decreases.**     
+* **As seen in the above graph there is a negative relationship between 'high priced’mortgage and ‘Property_value_std’. As 'Property_value_std’ increases,the probability of that individual’s mortgage to be ‘high priced’ decreases.**     
 
  <div align="center">
   
@@ -345,7 +345,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 <br>
 <div align="left">
  
-* **Basic Assesment:The reference group for the  'Adverse impact ratio' graph is "White" for race and "Male" for gender.The  adverse impact ratio for group 'black' is 0.741 and 'female' is O.948.Generally,an adverse impact ratio below 1.0 (or 100%) indicates that the protected group is likely to get 'high priced mortagage' compared to the reference group, suggesting potential adverse impact or disparities that may require further investigation to ensure fair and unbiased practices.Next we try to increase the 'AIR'values for the protected group using remediation techniques.**
+* **Basic Assessment:The reference group for the  'Adverse impact ratio' graph is "White" for race and "Male" for gender.The  adverse impact ratio for group 'black' is 0.741 and 'female' is O.948.Generally,an adverse impact ratio below 1.0 (or 100%) indicates that the protected group is likely to get 'high priced mortgage' compared to the reference group, suggesting potential adverse impact or disparities that may require further investigation to ensure fair and unbiased practices.Next we try to increase the 'AIR'values for the protected group using remediation techniques.**
   
  <div align="center">
   
