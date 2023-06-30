@@ -191,8 +191,6 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 |black|Demographic <br> information |categorical |Race of borrower|
 |row id| ID|numeric|Unique row identifier|            
  
- 
- 
  <br>
   <div align="left">
    
