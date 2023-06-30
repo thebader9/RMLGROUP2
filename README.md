@@ -206,14 +206,14 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 * **Column used as target variable in the model:** 'High-priced' mortgage
 * **Type of best remediated model:** Explainable Boosting Machine (EBM) Classifier 
 * **Software and version of the modeling software used to implement the model:**
-    <br> Python: 3.6.9<br>
+    <br> Python: 3.10 <br>
          h2o: 3.32.1.3<br>
-         interpret: 0.2.4<br>
+         interpret: 0.4.2 <br>
          matplotlib: 3.3.4 <br>
-         numpy: 1.19.5 <br>
+         numpy: 1.24.0 <br>
          pandas: 1.1.5 <br>
          scikit-learn: 0.24.2 <br>
-         seaborn: 0.11.1 <br>
+         seaborn: 0.11.2 <br>
 
 
 * **Hyperparameters or other settings of the final model:**
