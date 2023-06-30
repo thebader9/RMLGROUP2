@@ -130,21 +130,15 @@
 | Black vs White   | 0.807 |
 | Females vs Males   | 0.958 |
 
-<div align="left">
+
  
-
-
-<br>
-
 <div align="center">
+    
 <br>
  
- **Before Remediation**
- 
-<img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/0a8383c5-714d-4d24-8242-e1185f31924d" width="500" height="510">
-
+ **Model Before Remediation**
+ <img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/0a8383c5-714d-4d24-8242-e1185f31924d" width="500" height="510">
  <Br>
- 
  <div align="left">
   
 * **On basic assessment of the model features 'loan_to_value_ratio_std' stands out as the  important feature in deciding high priced mortgage to borrowers.**
