@@ -199,7 +199,6 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 * **Test data contains 19831 rows and 22 columns**
 * **Test data is unlabeled and does not include 'high_priced' mortagage target variable.**
 
- <br>
  
  ## Model Details
  
