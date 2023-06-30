@@ -131,7 +131,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 
 
 
--------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #  Model Card For Best Remediated Model
 
@@ -232,7 +232,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 
 
 ## Quantitative Analysis
-* **The metrics used to evaluate best remediated model:** Models were assessed primarily with Area under the curve(AUC) and Adverse impact ratio (AIR).
+* **The metrics used to evaluate best remediated model:** Models were assessed primarily for Area under the curve(AUC) and Adverse impact ratio (AIR).
   <br>
  <div align="center">
 
@@ -243,6 +243,8 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
  
  <br>
  <div align="left">
+  
+ ***As seen from the above table the model performed better in test data with AUC scores of 0.830.**
   
 *Test AUC taken from:   https://github.com/jphall663/GWU_rml/blob/master/assignments/model_eval_2023_06_28_21_00_17.csv 
  <div align="left">
@@ -287,6 +289,8 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 
  <br>
  
+ * **After model remediation features 'property_value','debt_to_income_ratio', emerged out as the important features in deciding high priced mortgage to borrowers.**
+  
   <div align="center">
    
    **Partial Dependence Plot (PDP)**
@@ -325,8 +329,10 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 <img src ="https://github.com/thebader9/RMLGROUP2/assets/111473895/1246d32e-ae64-4bcf-89aa-0db7ffc67f8a" width="450" height="510">
 
  <br>
- 
- * **The PDP graph indicates that having a standard 360 month mortgage (1) is associated with a slightly higher likelihood of a high-priced mortgage, while the ALE graph shows that having a standard 360 month mortgage (1) does not strongly influence the probability of a high-priced mortgage.**
+ <div align="left">
+  
+ * **The PDP graph indicates that having a standard 360 month mortgage (1) is associated with a higher likelihood of a high-priced mortgage.**
+ <br>
  
 **'AIR' before remediation**
  
@@ -347,7 +353,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 
 
  
-* **Address other alternative models considered:** EBM,XGB2 and ReLU-dnn models were compared.As seen from the table below EBM performed better overall for ACC,AUC and F1 metrics test scores than other models.
+* **Address other alternative models considered:** EBM,XGB2 and ReLU-DNN models were compared.As seen from the table below EBM performed better overall for ACC,AUC and F1 metrics test scores than other models.
 
 
 <div align="center">
@@ -367,14 +373,19 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 
 
 
-
+<div align="center">
+ 
 ## Ethical Consideration:
-  
+
+  <div align="left">
+   
 * **While the model demonstrates satisfactory performance, its applicability to mortgage lending reveals may still have underlying racial bias. Merely achieving a fairness score and ensuring a minimum score of 0.80 for protected groups, such as AIR, should not be considered a sufficient benchmark. This outcome implies that bias persists within the model, potentially leading to discriminatory home-mortgage lending for those protected groups.**
-* **Moreover, the model's evaluation of bias is overly simplistic and fails to account for intersectional protected groups. It solely relies on confusion matrices and subsequent AIR scores that pertain to individual identity groups. This limitation restricts the evaluation to race or gender in isolation, disregarding the compounded impact of factors such as race, gender, sexuality, religion, socioeconomic status, ability,etc.** 
+  
+* **Moreover, the model's evaluation of bias is overly simplistic and fails to account for intersectional protected groups. It solely relies on confusion matrices and subsequent AIR scores that pertain to individual identity groups. This limitation restricts the evaluation to race or gender in isolation, disregarding the compounded impact of factors such as race, gender, sexuality, religion, socioeconomic status, ability,etc.**
+  
 * **The potential for improving the model's effectiveness through software modifications remains uncertain. Exploring alternative software options could yield different outcomes and decision nodes within the generated model. However, this would necessitate additional testing or using the alternative software.**
 
-
+--------------------------------------------------------------------------------------------------------------------
 
 
 
