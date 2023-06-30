@@ -273,7 +273,10 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 <img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/0a8383c5-714d-4d24-8242-e1185f31924d" width="500" height="510">
 
  <Br>
-* **On basic assesment of the model features 
+ 
+ <div align="left">
+  
+* **On basic assesment of the model features 'loan_to_value_ratio_std' stands out as the  important feature in deciding high priced mortgage to borrowers.
  
   **After Remediation**
  
@@ -282,13 +285,17 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 
  <br>
  
- * **Partial Dependence Plot (PDP): used to understand how the prediction varies as a function of variables of interest, by averaging over other variables.Not recommended if the features are correlated.**
+  <div align="center">
+   
+ * **Partial Dependence Plot (PDP)**
     <br>
-    
 <img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/d131a404-014b-4d44-abfb-8590e0cc76d8"
  width="450" height="510">
  <br>
-* **There is a negative relationship between ‘mortgage is high priced’ and ‘Property_value_std’. As Property_value_std’ increases, the probability of that individual’s mortgage to be ‘high priced’ decreases.**     
+
+* **PDP is used to understand how the prediction varies as a function of variables of interest, by averaging over other variables.Not recommended if the features are correlated.**
+  
+* **As seen in the above graph there is a negative relationship between ‘mortgage is high priced’ and ‘Property_value_std’. As Property_value_std’ increases, the probability of that individual’s mortgage to be ‘high priced’ decreases.**     
 
 
 <img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/a09e45e1-749d-47ce-bdae-a4609b223953"
