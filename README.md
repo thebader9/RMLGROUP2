@@ -22,7 +22,7 @@
 
 * **Source of Training dataset: GitHub - https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
   
-* **Training data was randomly split into training and validation data: 70% training and 30% validation.**
+* **Training data was randomly split into training and validation data:70% training and 30% validation.**
   
 * **Training data contains 112253 rows and 23 columns and Validation data contains 48085 rows and 23 columns.**
 
@@ -65,7 +65,7 @@
    
  ## Evaluation  dataset
 * **Source of Test dataset: GitHub - https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
-* **Test data contains 19831 rows and 22 columns**
+* **Test data contains 19831 rows and 22 columns.**
 * **Test data does not include 'high_priced' mortgage target variable.**
 
  
