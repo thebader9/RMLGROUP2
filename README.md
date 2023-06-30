@@ -279,7 +279,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
  
  <div align="left">
   
-* **On basic assesment of the model features 'loan_to_value_ratio_std' stands out as the  important feature in deciding high priced mortgage to borrowers.**
+* **On basic assessment of the model features 'loan_to_value_ratio_std' stands out as the  important feature in deciding high priced mortgage to borrowers.**
   
 <div align="center">
  
