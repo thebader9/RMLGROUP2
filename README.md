@@ -151,7 +151,9 @@
  
 <img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/583ee9aa-fe8f-4d78-a93e-91f27692c986"
  width="450" height="510">
-
+ 
+ <div align="left">
+     
  * **After model remediation features 'property_value','debt_to_income_ratio', emerged out as the important features in deciding high priced mortgage to borrowers.**
   
   <div align="center">
