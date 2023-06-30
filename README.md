@@ -241,14 +241,6 @@
  |ReLU-DNN|0.9044|0.8061|0.0108|0.9033|0.8050|0.0131|
  |XGB2|0.9043|0.8233|0.0158|0.9031|0.8252|0.0143|
 
-<br>
-
-<img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/e6231993-ceef-4139-9828-4911c082150b" width="520" height="510" >
-
-<img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/58f4532d-75e3-4570-bd61-f01477f3f561" width="520" height="510" >
-
-
-
 
 <div align="left">
  
