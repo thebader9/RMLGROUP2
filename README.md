@@ -297,9 +297,9 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
  
  <br>
 
-* **PDP is used to understand how the prediction varies as a function of variables of interest, by averaging over other variables.Not recommended if the features are correlated.**
+***PDP is used to understand how the prediction varies as a function of variables of interest, by averaging over other variables.Not recommended if the features are correlated.**
   
-* **As seen in the above graph there is a negative relationship between 'high priced’mortgage and ‘Property_value_std’. As Property_value_std’increases,the probability of that individual’s mortgage to be ‘high priced’ decreases.**     
+***As seen in the above graph there is a negative relationship between 'high priced’mortgage and ‘Property_value_std’. As Property_value_std’increases,the probability of that individual’s mortgage to be ‘high priced’ decreases.**     
 
  <div align="center">
   
@@ -309,7 +309,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
  <br>
   <div align="left">
    
-  * **There is a negative. relationship between ‘mortgage is high priced’ and ‘Debt_to_income_ratio_std’ when the value is less than 1. As ‘Debt_to_income_ratio_std’  increases, the probability of that individual’s mortgage to be ‘high priced’ increases, up until the ratio is at around 1, then the relationship is positive .**
+***There is a positive relationship between 'high priced’mortgage and ‘Debt_to_income_ratio_std'. As ‘Debt_to_income_ratio_std’ increases, the probability of that individual’s mortgage to be ‘high priced’ increases.**
 
 <div align="center">
 
