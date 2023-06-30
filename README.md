@@ -216,7 +216,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 
 
 * **Hyperparameters or other settings of the final model:**
-      <br> rem_params = max_bins: 256 <br> 
+          <br>       rem_params = max_bins: 256 <br> 
                      max_interaction_bins: 64 <br> 
                      interactions: 15 <br> 
                      outer_bags: 12 <br> 
