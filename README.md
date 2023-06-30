@@ -206,8 +206,8 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 * **Type of best remediated model:** Explainable Boosting Machine (EBM) Classifier 
 * **Software and version of the modeling software used to implement the model:**
    <br> Python: 3.6.9<br>
-   <br> h2o: 3.32.1.3<br>
-   <br> interpret: 0.2.4<br>
+        h2o: 3.32.1.3<br>
+        interpret: 0.2.4<br>
    <br> matplotlib: 3.3.4 <br>
    <br> numpy: 1.19.5 <br>
    <br>pandas: 1.1.5 <br>
