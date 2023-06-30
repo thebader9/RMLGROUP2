@@ -326,7 +326,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
  <br>
  <div align="left">
   
- * **There a Positive relationship between 'high priced’mortgage and and ‘Income_std’.However it becomes constant after initial hike across income groups.**
+ * **There a Positive relationship between 'high priced’mortgage and ‘Income_std’.However it becomes constant after initial hike across income groups.**
  
 <div align="center">
 <img src ="https://github.com/thebader9/RMLGROUP2/assets/111473895/1246d32e-ae64-4bcf-89aa-0db7ffc67f8a" width="450" height="510">
@@ -356,7 +356,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 <br>
 <div align="left">
  
-* **After remediation and the AIR (Adverse Impact Ratio) for the 'black' got better at 0.807 from 0.741 recorded in basic assesment.**
+* **After remediation and the AIR (Adverse Impact Ratio) for the 'black' got better at 0.807 from 0.741 recorded in basic assessment.**
 
 * **Address other alternative models considered:** EBM,XGB2 and ReLU-DNN models were compared.As seen from the table below, EBM performed better overall for ACC,AUC and F1 metric test scores.
 
