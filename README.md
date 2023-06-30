@@ -242,6 +242,12 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
  |0.7801*|0.7861|0.830*|
  
  <br>
+ 
+*Test AUC takenfrom:   https://github.com/jphall663/GWU_rml/blob/master/assignments/model_eval_2023_06_28_21_00_17.csv 
+*Train AUC and Validation AUC values from remediation EBM (after removing outliers).
+
+<br>
+
  <div align="center">
   
 |  Groups          | AIR |          
@@ -252,10 +258,6 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 
 <div align="left">
  
-*Test AUC taken from:https://github.com/jphall663/GWU_rml/blob/master/assignments/model_eval_2023_06_28_21_00_17.csv 
-<br>
-
-*Train AUC and Validation AUC values from remediation EBM (after removing outliers).
 
 
 <br>
