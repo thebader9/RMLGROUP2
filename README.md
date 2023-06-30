@@ -13,7 +13,7 @@
 ## Intended use
 
 * **Primary business value:** To ensure customers gets fair priced mortgage across all socio-demographic group.The model is an example use case that will help to make informed decision and retain customers for a long time.
-* **Primary intended uses:** The model is an example use case of bias testing across major demographic groups for discriminatory out-comes using adverse impact ratio (AIR) and is intended to be used as a guide for finding a less discriminatory model using remediation technique to address massive disparity, wherein high priced mortgage usually falls on the shoulders of minority home owners .
+* **Primary intended uses:** The model is an example use case of bias testing across major demographic groups for discriminatory out-comes using adverse impact ratio (AIR) and is intended to be used as a guide for finding a less discriminatory model using remediation technique to address massive disparity, wherein high priced mortgage usually falls on the shoulders of minority home owners.
 * **Primary intended users:** Students
 * **Out-of-scope use cases:**  Any use beyond educational reference is out-of-scope.
 
