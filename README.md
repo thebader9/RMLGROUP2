@@ -29,7 +29,7 @@
 <br>
  <div align="center">
      
-**Data Dictionary:**
+**Data Dictionary**
 
  <div align="center">
  
