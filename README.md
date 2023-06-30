@@ -223,7 +223,7 @@
  
 * **After remediation the AIR (Adverse Impact Ratio) for the 'black' got better at 0.807 from 0.741 recorded earlier in basic assessment.**
 
-* **Address other alternative models considered:** EBM,XGB2 and ReLU-DNN models were compared.As seen from the table below, EBM performed better overall for ACC,AUC and F1 metric test scores.After checking for robustness we found that EBM stands-out compared to other models and hence we decided to take EBM as our model, to study disparity in home-mortgage lending across various socio-demographic groups.
+* **Address other alternative models considered:** EBM,XGB2 and ReLU-DNN models were compared.As seen from the table below, EBM performed better overall for ACC,AUC and F1 metric test scores.After checking for robustness we found that EBM stands-out overall in metric test scores and robustness compared to other models and hence we decided to take EBM as our model to study disparity in home-mortgage lending, across various socio-demographic groups.
 
 
 <div align="center">
@@ -240,6 +240,12 @@
  |EBM|0.9045|0.8251|0.0250|0.9036|0.8277|0.0313|
  |ReLU-DNN|0.9044|0.8061|0.0108|0.9033|0.8050|0.0131|
  |XGB2|0.9043|0.8233|0.0158|0.9031|0.8252|0.0143|
+
+
+
+<img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/e6231993-ceef-4139-9828-4911c082150b"
+img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/58f4532d-75e3-4570-bd61-f01477f3f561" width="450" height="450" >
+
 
 
 
