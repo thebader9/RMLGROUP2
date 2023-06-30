@@ -201,7 +201,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 
  
  ## Model Details
-  * **Columns used as inputs:** 'debt_to_income_ratio_std', 'debt_to_income_ratio_missing', 'income_std',      'loan_amount_ std', 'intro_rate_period_std', 'loan_to_value_ratio_std','no_intro_rate_period_std',          'property_value_std', 'term_360''conforming'
+  * **Columns used as inputs:** 'debt_to_income_ratio_std','debt_to_income_ratio_missing','income_std', 'intro_rate_period_std','property_value_std', 'term_360','conforming'.
 * **Column used as target variable in the model:** 'High-priced mortgage'
 * **Type of best remediated model:** Explainable Boosting Machine (EBM) Classifier 
 * **Software and version of the modeling software used to implement the model:**
@@ -296,10 +296,11 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
  width="450" height="510">
  
  <br>
-
-***PDP is used to understand how the prediction varies as a function of variables of interest, by averaging over other variables.Not recommended if the features are correlated.**
+ <div align="left">
   
-***As seen in the above graph there is a negative relationship between 'high priced’mortgage and ‘Property_value_std’. As Property_value_std’increases,the probability of that individual’s mortgage to be ‘high priced’ decreases.**     
+* **PDP is used to understand how the prediction varies as a function of variables of interest, by averaging over other variables.Not recommended if the features are correlated.**
+  
+* **As seen in the above graph there is a negative relationship between 'high priced’mortgage and ‘Property_value_std’. As Property_value_std’increases,the probability of that individual’s mortgage to be ‘high priced’decreases.**     
 
  <div align="center">
   
@@ -309,16 +310,17 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
  <br>
   <div align="left">
    
-***There is a positive relationship between 'high priced’mortgage and ‘Debt_to_income_ratio_std'. As ‘Debt_to_income_ratio_std’ increases, the probability of that individual’s mortgage to be ‘high priced’ increases.**
+* **There is a positive relationship between 'high priced’mortgage and ‘Debt_to_income_ratio_std'. As ‘Debt_to_income_ratio_std’ increases, the probability of that individual’s mortgage to be ‘high priced’ increases.**
 
 <div align="center">
 
 <img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/c7a09d63-7ba2-409d-acee-1a1b536cf64f"
  width="450" height="510">
  <br>
- * **There is a Positive relationship between ‘mortgage is high priced’ and ‘Income_st:’. As ‘Income_std’ increases, the probability of that individual’s mortgage to be ‘high priced’  increases. In both PDP and ALE.**
+ <div align="left">
+  
+ * **There a Positive relationship between 'high priced’mortgage and and ‘Income_std’.However it becomes constant after initial hike across income groups.**
  
-
 <div align="center">
 <img src ="https://github.com/thebader9/RMLGROUP2/assets/111473895/1246d32e-ae64-4bcf-89aa-0db7ffc67f8a" width="450" height="510">
 
@@ -330,10 +332,9 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
  
 <img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/1402ce73-b2c2-4194-a7af-26caa64591d4" width="520" height="510">
 
-
 <br>
 
-* **Basic Assesment:As mentioned above the 'Area under curve is 0.8253.The reference group for the above 'Adverse impact ratio' graph is "White" for race and "Male" for gender.The  adverse impact ratio for group 'black' is 0.741 and 'female' is O.948.Generally,an adverse impact ratio below 1.0 (or 100%) indicates that the protected group is likely to get 'high priced mortagage' compared to the reference group, suggesting potential adverse impact or disparities that may require further investigation to ensure fair and unbiased practices.Next we try to increase the 'AIR'values for the protected group using remediation techniques.**
+* **Basic Assesment:The reference group for the  'Adverse impact ratio' graph is "White" for race and "Male" for gender.The  adverse impact ratio for group 'black' is 0.741 and 'female' is O.948.Generally,an adverse impact ratio below 1.0 (or 100%) indicates that the protected group is likely to get 'high priced mortagage' compared to the reference group, suggesting potential adverse impact or disparities that may require further investigation to ensure fair and unbiased practices.Next we try to increase the 'AIR'values for the protected group using remediation techniques.**
   
 
 **'AIR' after remediation**
@@ -342,13 +343,12 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
  width="520" height="510">
 <br>
 
-**The best AUC achieved was 0.7809, after remediation and the AIR (Adverse Impact Ratio) for the 'black' got better at 0.807 from 0.741 recorded in basic assesment.**
+* **After remediation and the AIR (Adverse Impact Ratio) for the 'black' got better at 0.807 from 0.741 recorded in basic assesment.**
 
 
  
-* **Address other alternative models considered:** 
+* **Address other alternative models considered:** EBM,XGB2 and ReLU-dnn models were compared.As seen from the table below EBM performed better overall for ACC,AUC and F1 metrics test scores than other models.
 
-<Br>
 
 <div align="center">
 
@@ -368,10 +368,11 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 
 
 
-* **Ethical Consideration:**
-*While the model demonstrates satisfactory performance, its applicability to mortgage lending reveals may still have underlying racial bias. Merely achieving a fairness score and ensuring a minimum score of 0.80 for protected groups, such as AIR, should not be considered a sufficient benchmark. This outcome implies that bias persists within the model, potentially leading to discriminatory home-mortgage lending for those protected groups.
-*Moreover, the model's evaluation of bias is overly simplistic and fails to account for intersectional protected groups. It solely relies on confusion matrices and subsequent AIR scores that pertain to individual identity groups. This limitation restricts the evaluation to race or gender in isolation, disregarding the compounded impact of factors such as race, gender, sexuality, religion, socioeconomic status, ability,etc. 
-*The potential for improving the model's effectiveness through software modifications remains uncertain. Exploring alternative software options could yield different outcomes and decision nodes within the generated model. However, this would necessitate additional testing or using the alternative software.
+## Ethical Consideration:
+  
+* **While the model demonstrates satisfactory performance, its applicability to mortgage lending reveals may still have underlying racial bias. Merely achieving a fairness score and ensuring a minimum score of 0.80 for protected groups, such as AIR, should not be considered a sufficient benchmark. This outcome implies that bias persists within the model, potentially leading to discriminatory home-mortgage lending for those protected groups.**
+* **Moreover, the model's evaluation of bias is overly simplistic and fails to account for intersectional protected groups. It solely relies on confusion matrices and subsequent AIR scores that pertain to individual identity groups. This limitation restricts the evaluation to race or gender in isolation, disregarding the compounded impact of factors such as race, gender, sexuality, religion, socioeconomic status, ability,etc.** 
+* **The potential for improving the model's effectiveness through software modifications remains uncertain. Exploring alternative software options could yield different outcomes and decision nodes within the generated model. However, this would necessitate additional testing or using the alternative software.**
 
 
 
