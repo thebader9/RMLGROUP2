@@ -24,7 +24,7 @@
   
 * **Training data was randomly split into training and validation data: 70% training and 30% validation.**
   
-* **Training data contains 112253 rows and 23 columns and Validation data contains 48085 rows and 23 columns**
+* **Training data contains 112253 rows and 23 columns and Validation data contains 48085 rows and 23 columns.**
 
 <br>
  <div align="center">
