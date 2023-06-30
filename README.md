@@ -111,7 +111,7 @@
  |0.7801|0.7861|0.830|
  
  <br>
- <div align="left">
+ <div align="center">
   
  * **As seen from the above table the model performed better in test data with AUC scores of 0.830.**
  
