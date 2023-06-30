@@ -70,8 +70,8 @@
 
  
  ## Model Details
-  * **Columns used as inputs:** 'debt_to_income_ratio_std','debt_to_income_ratio_missing','income_std', 'intro_rate_period_std','property_value_std', 'term_360','conforming'.
-* **Column used as target variable in the model:** 'High-priced' mortgage
+  * **Columns used as inputs:** 'debt_to_income_ratio_std', 'debt_to_income_ratio_missing', 'income_std', 'intro_rate_period_std','property_value_std', 'term_360','conforming'.
+* **Column used as target variable in the model:** 'high-priced' mortgage
 * **Type of best remediated model:** Explainable Boosting Machine (EBM) Classifier 
 * **Software and version of the modeling software used to implement the model:**
     <br> Python: 3.10 <br>
