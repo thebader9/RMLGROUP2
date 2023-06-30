@@ -293,6 +293,8 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
  * **After model remediation features 'property_value','debt_to_income_ratio', emerged out as the important features in deciding high priced mortgage to borrowers.**
   
   <div align="center">
+   <br>
+   
    
    **Partial Dependence Plot (PDP)**
     <br>
@@ -334,27 +336,29 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
   
  * **The PDP graph indicates that having a standard 360 month mortgage (1) is associated with a higher likelihood of a high-priced mortgage.**
  <br>
- 
+ <div align="center">
+  
 **'AIR' before remediation**
  
 <img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/1402ce73-b2c2-4194-a7af-26caa64591d4" width="520" height="510">
 
 <br>
-
+<div align="left">
+ 
 * **Basic Assesment:The reference group for the  'Adverse impact ratio' graph is "White" for race and "Male" for gender.The  adverse impact ratio for group 'black' is 0.741 and 'female' is O.948.Generally,an adverse impact ratio below 1.0 (or 100%) indicates that the protected group is likely to get 'high priced mortagage' compared to the reference group, suggesting potential adverse impact or disparities that may require further investigation to ensure fair and unbiased practices.Next we try to increase the 'AIR'values for the protected group using remediation techniques.**
   
-
+ <div align="center">
+  
 **'AIR' after remediation**
 
 <img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/55051821-cfc3-4698-b8e3-157102798aac"
  width="520" height="510">
 <br>
-
+<div align="left">
+ 
 * **After remediation and the AIR (Adverse Impact Ratio) for the 'black' got better at 0.807 from 0.741 recorded in basic assesment.**
 
-
- 
-* **Address other alternative models considered:** EBM,XGB2 and ReLU-DNN models were compared.As seen from the table below EBM performed better overall for ACC,AUC and F1 metrics test scores than other models.
+* **Address other alternative models considered:** EBM,XGB2 and ReLU-DNN models were compared.As seen from the table below, EBM performed better overall for ACC,AUC and F1 metric test scores.
 
 
 <div align="center">
@@ -374,7 +378,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 
 
 
-<div align="center">
+<div align="left">
  
 ## Ethical Consideration:
 
