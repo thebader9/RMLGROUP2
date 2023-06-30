@@ -356,7 +356,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 <br>
 <div align="left">
  
-* **After remediation and the AIR (Adverse Impact Ratio) for the 'black' got better at 0.807 from 0.741 recorded in basic assessment.**
+* **After remediation the AIR (Adverse Impact Ratio) for the 'black' got better at 0.807 from 0.741 recorded earlier in basic assessment.**
 
 * **Address other alternative models considered:** EBM,XGB2 and ReLU-DNN models were compared.As seen from the table below, EBM performed better overall for ACC,AUC and F1 metric test scores.
 
