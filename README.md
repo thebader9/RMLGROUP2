@@ -273,6 +273,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 <img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/0a8383c5-714d-4d24-8242-e1185f31924d" width="500" height="510">
 
  <Br>
+* **On basic assesment of the model features 
  
   **After Remediation**
  
