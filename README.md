@@ -155,7 +155,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 
 ## Training  dataset
 
-* **Source of Training dataset: Github - https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
+* **Source of Training dataset: GitHub - https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
 *  **Training data was randomly split into training and validation data: 70% training and 30% validation.**
 *  **Training data contains 112253 rows and 23 columns and Validation data contains 48085 rows and 23 columns**
 
@@ -196,7 +196,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
   <div align="left">
    
  ## Evaluation  dataset
-* **Source of Test dataset: Github - https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
+* **Source of Test dataset: GitHub - https://github.com/jphall663/GWU_rml/tree/master/assignments/data**
 * **Test data contains 19831 rows and 22 columns**
 * **Test data is unlabeled and does not include 'high_priced' mortgage target variable.**
 
