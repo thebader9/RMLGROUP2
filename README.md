@@ -173,28 +173,30 @@
 * **As seen in the above graph there is a negative relationship between 'high priced’mortgage and ‘Property_value_std’. As 'Property_value_std’ increases,the probability of that individual’s mortgage to be ‘high priced’ decreases.**     
 
  <div align="center">
-  
+  <br>
+     
 <img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/a09e45e1-749d-47ce-bdae-a4609b223953"
  width="450" height="510">
  
- <br>
   <div align="left">
    
 * **There is a positive relationship between 'high priced’mortgage and ‘Debt_to_income_ratio_std'. As ‘Debt_to_income_ratio_std’ increases, the probability of that individual’s mortgage to be ‘high priced’ increases.**
 
 <div align="center">
-
+<br>
+    
 <img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/c7a09d63-7ba2-409d-acee-1a1b536cf64f"
  width="450" height="510">
- <br>
+
  <div align="left">
-  
+     
  * **There a Positive relationship between 'high priced’mortgage and ‘Income_std’.However it becomes constant after initial hike across income groups.**
  
 <div align="center">
+     <br>
+    
 <img src ="https://github.com/thebader9/RMLGROUP2/assets/111473895/1246d32e-ae64-4bcf-89aa-0db7ffc67f8a" width="450" height="510">
 
- <br>
  <div align="left">
   
  * **The PDP graph indicates that having a standard 360 month mortgage (1) is associated with a higher likelihood of a high-priced mortgage.**
