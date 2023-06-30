@@ -111,11 +111,12 @@
  |0.7801|0.7861|0.830|
  
  <br>
+
  <div align="left">
   
- * **As seen from the above table the model performed better in test data with AUC scores of 0.830.**
+* **As seen from the above table the model performed better in test data with AUC scores of 0.830.**
  
- * **Test AUC taken from:   https://github.com/jphall663/GWU_rml/blob/master/assignments/model_eval_2023_06_28_21_00_17.csv**
+* **Test AUC taken from:   https://github.com/jphall663/GWU_rml/blob/master/assignments/model_eval_2023_06_28_21_00_17.csv**
  
 * **Train AUC and Validation AUC values from remediation EBM (after removing outliers).**
 
