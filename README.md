@@ -137,7 +137,7 @@ Plotting residuals is a model debugging and diagnostic tool that enables users t
 
 ## Basic Information
 
-* **Team Members**:Dimple Modi,Badar Albarrak,Mallika Y.
+* **Team Members**: Dimple Modi,Badar Albarrak,Mallika Y.
 * **Model date:** June,2023
 * **Model Version:** 1
 * **License:** Apache 2.0
