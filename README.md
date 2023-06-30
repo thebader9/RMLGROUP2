@@ -166,7 +166,6 @@
 <img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/d131a404-014b-4d44-abfb-8590e0cc76d8"
  width="450" height="510">
  
- <br>
  <div align="left">
   
 * **PDP is used to understand how the prediction varies as a function of variables of interest, by averaging over other variables.Not recommended if the features are correlated.**
