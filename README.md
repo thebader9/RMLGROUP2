@@ -155,7 +155,7 @@
 
  <br>
  
- ***After model remediation features 'property_value','debt_to_income_ratio', emerged out as the important features in deciding high priced mortgage to borrowers.**
+ * **After model remediation features 'property_value','debt_to_income_ratio', emerged out as the important features in deciding high priced mortgage to borrowers.**
   
   <div align="center">
    <br>
