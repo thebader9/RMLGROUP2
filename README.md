@@ -140,20 +140,18 @@
  **Model Before Remediation**
  
  <img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/0a8383c5-714d-4d24-8242-e1185f31924d" width="500" height="510">
- <Br>
+
  <div align="left">
-  
-* **On basic assessment of the model features 'loan_to_value_ratio_std' stands out as the  important feature in deciding high priced mortgage to borrowers.**
+     
+  * **On basic assessment of the model features 'loan_to_value_ratio_std' stands out as the  important feature in deciding high priced mortgage to borrowers.**
   
 <div align="center">
  
-  **After Remediation**
+  **Model After Remediation**
  
 <img src = "https://github.com/thebader9/RMLGROUP2/assets/111473895/583ee9aa-fe8f-4d78-a93e-91f27692c986"
  width="450" height="510">
 
- <br>
- 
  * **After model remediation features 'property_value','debt_to_income_ratio', emerged out as the important features in deciding high priced mortgage to borrowers.**
   
   <div align="center">
